@@ -28,15 +28,35 @@ public class ticktock {
             String auswahl = scanner.nextLine();
             String[] auswal = auswahl.split(",");
 
-            if (cplay == 1){
-                spfeld[Integer.parseInt(auswal[0])][Integer.parseInt(auswal[1])] = 1;
-                cplay = 2;
+            if(spfeld[Integer.parseInt(auswal[0])][Integer.parseInt(auswal[1])] > 0){
+                System.out.println("Des Feld ist belegt du Trottel versuchs nomol");
             }
-            else if (cplay == 2){
-                spfeld[Integer.parseInt(auswal[0])][Integer.parseInt(auswal[1])] = 2;
-                cplay = 1;
+            else {
+                if (cplay == 1){
+                    spfeld[Integer.parseInt(auswal[0])][Integer.parseInt(auswal[1])] = 1;
+                    cplay = 2;
+                }
+                else if (cplay == 2){
+                    spfeld[Integer.parseInt(auswal[0])][Integer.parseInt(auswal[1])] = 2;
+                    cplay = 1;
+                }
             }
             if((spfeld[0][0] + spfeld[0][1] + spfeld[0][2]) == 3){
+                gwunna = true;
+            }
+            else if((spfeld[0][0] + spfeld[0][1] + spfeld[0][2]) == 6){
+                gwunna = true;
+            }
+            else if((spfeld[1][0] + spfeld[1][1] + spfeld[1][2]) == 3){
+                gwunna = true;
+            }
+            else if((spfeld[1][0] + spfeld[1][1] + spfeld[1][2]) == 6){
+                gwunna = true;
+            }
+            else if((spfeld[2][0] + spfeld[2][1] + spfeld[2][2]) == 3){
+                gwunna = true;
+            }
+            else if((spfeld[2][0] + spfeld[2][1] + spfeld[2][2]) == 6){
                 gwunna = true;
             }
         }

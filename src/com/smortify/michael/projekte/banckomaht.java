@@ -1,3 +1,5 @@
+package com.smortify.michael.projekte;
+
 import java.util.Scanner;
 
 public class banckomaht {
@@ -11,6 +13,7 @@ public class banckomaht {
         System.out.println("3. Kontostand");
         System.out.println("4. Ausrauben");
         System.out.println("5. Beenden");
+
         while (!isoff) {
             Scanner scanner = new Scanner(System.in);
             int auswahl = scanner.nextInt();

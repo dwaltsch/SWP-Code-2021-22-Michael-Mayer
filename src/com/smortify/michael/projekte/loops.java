@@ -1,3 +1,5 @@
+package com.smortify.michael.projekte;
+
 public class loops {
     public static void main(String[] args) {
         /*

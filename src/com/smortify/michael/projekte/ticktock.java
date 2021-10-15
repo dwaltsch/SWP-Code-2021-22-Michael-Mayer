@@ -1,3 +1,5 @@
+package com.smortify.michael.projekte;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -11,8 +13,6 @@ public class ticktock {
         System.out.println("****************************");
         boolean gwunna = false;
         char[][] spfeld = new char[3][3];
-        spfeld[0][0] = 1;
-        spfeld[1][1] = 1;
         int cplay = 1;
 
         while (!gwunna){
@@ -29,7 +29,7 @@ public class ticktock {
             String[] auswal = auswahl.split(",");
 
             if(spfeld[Integer.parseInt(auswal[0])][Integer.parseInt(auswal[1])] > 0){
-                System.out.println("Des Feld ist belegt du Trottel versuchs nomol");
+                System.out.println("Des Feld ist belegt du Timo versuchs nomol");
             }
             else {
                 if (cplay == 1){
@@ -59,6 +59,36 @@ public class ticktock {
             else if((spfeld[2][0] + spfeld[2][1] + spfeld[2][2]) == 6){
                 gwunna = true;
             }
+
+            else if((spfeld[0][0] + spfeld[1][0] + spfeld[2][0]) == 3){
+                gwunna = true;
+            }
+            else if((spfeld[0][0] + spfeld[1][0] + spfeld[2][0]) == 6){
+                gwunna = true;
+            }
+
+            else if((spfeld[0][1] + spfeld[1][1] + spfeld[2][1]) == 3){
+                gwunna = true;
+            }
+            else if((spfeld[0][2] + spfeld[1][2] + spfeld[2][2]) == 6){
+                gwunna = true;
+            }
+
+
+            else if((spfeld[0][0] + spfeld[1][1] + spfeld[2][2]) == 3){
+                gwunna = true;
+            }
+            else if((spfeld[0][2] + spfeld[1][1] + spfeld[2][0]) == 6){
+                gwunna = true;
+            }
+            else if((spfeld[0][0] + spfeld[1][1] + spfeld[2][2]) == 6){
+                gwunna = true;
+            }
+            else if((spfeld[0][2] + spfeld[1][1] + spfeld[2][0]) == 3){
+                gwunna = true;
+            }
+
+
         }
         if(gwunna == true){
             if(cplay == 1){

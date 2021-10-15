@@ -1,3 +1,5 @@
+package com.smortify.michael.projekte;
+
 import java.util.Random;
 import java.util.Scanner;
 

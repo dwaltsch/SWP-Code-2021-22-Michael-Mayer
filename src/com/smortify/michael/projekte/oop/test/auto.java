@@ -9,7 +9,7 @@ public class auto {
     public int fcons;
 
     public void drive(){
-        this.fmount = this.fmount - this.fcons;
+        this.fmount = (int) (this.fmount - this.fuelConsumption);
         System.out.println("Brrrrrrrrrrrrrrrrrrrrrr i fahr grad brrrrrrrrrr");
         System.out.println();
     };
@@ -20,7 +20,7 @@ public class auto {
     Wenn ja gibt die Methode den Text "SuperBoostMode" aus. Ansonsten wird "Not enough fuel to go to Superboost".
      */
     public void turboboost(){
-        if (fmount > 4){
+        if (this.fmount > 4){
             System.out.println("SUPERBOOST");
         }
         else {
@@ -33,7 +33,14 @@ public class auto {
     }
 
     public void honk(int wh){
+        for (int i = 0; i < wh; i++) {
+            System.out.println("Tuut");
+        }
+    }
+    public void getremrange(){
+         int restreichweite = (int) ((fmount / fuelConsumption)*100);
 
+        System.out.println("Die restliche Reichweite beträgt " + restreichweite + " km");
     }
 
 }

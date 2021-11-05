@@ -5,8 +5,16 @@ public class auto {
     public double fuelConsumption;
     public String serialnumber;
     public String brand;
-    public int fmount;
+    public int fmount = 45;
     public int fcons;
+
+    public auto(String b, String col , String sn,double fl){
+        this.brand = b;
+        this.serialnumber = sn;
+        this.color = col;
+        this.fuelConsumption = fl;
+
+    }
 
     public void drive(){
         this.fmount = (int) (this.fmount - this.fuelConsumption);

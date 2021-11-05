@@ -5,8 +5,9 @@ public class auto {
     public double fuelConsumption;
     public String serialnumber;
     public String brand;
-    public int fmount = 45;
+    private int fmount = 45;
     public int fcons;
+    private boolean abgasbetrug = true;
 
     public auto(String b, String col , String sn,double fl){
         this.brand = b;

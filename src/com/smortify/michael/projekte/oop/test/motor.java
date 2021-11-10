@@ -8,5 +8,4 @@ public class motor {
     public void fahren(int anzahl){
         System.out.println("Da motor läuft mit");
     }
-
 }

@@ -14,3 +14,4 @@ public class motor {
         System.out.println("Da motor läuft mit");
     }
 }
+

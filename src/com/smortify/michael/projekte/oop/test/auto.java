@@ -1,6 +1,7 @@
 package com.smortify.michael.projekte.oop.test;
 
 public class auto {
+
     public String color;
     public double fuelConsumption;
     public String serialnumber;
@@ -9,12 +10,18 @@ public class auto {
     public int fcons;
     private boolean abgasbetrug = true;
 
-    public auto(String b, String col , String sn,double fl){
+    private motor motor;
+
+    public auto(motor motor, String b, String col , String sn,double fl){
+        this.motor = motor;
         this.brand = b;
         this.serialnumber = sn;
         this.color = col;
         this.fuelConsumption = fl;
 
+    }
+
+    public auto(com.smortify.michael.projekte.oop.test.motor i, String blau, String col, double v) {
     }
 
     public void drive(){
@@ -37,6 +44,8 @@ public class auto {
         }
     }
 
+
+
     public void brems(){
         System.out.println("Ich bremse");
     }
@@ -45,6 +54,7 @@ public class auto {
         for (int i = 0; i < wh; i++) {
             System.out.println("Tuut");
         }
+        System.out.println("I bin an "+  this.brand + "hab die farb" + this.color + "und hab irgendan motor" + this.getMotor().getps());
     }
     public void getremrange(){
          int restreichweite = (int) ((fmount / fuelConsumption)*100);
@@ -52,4 +62,11 @@ public class auto {
         System.out.println("Die restliche Reichweite beträgt " + restreichweite + " km");
     }
 
+    public motor getMotor() {
+        return motor;
+    }
+
+    public void setMotor(motor motor) {
+        this.motor = motor;
+    }
 }

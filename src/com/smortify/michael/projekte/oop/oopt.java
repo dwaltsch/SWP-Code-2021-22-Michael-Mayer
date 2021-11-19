@@ -9,8 +9,8 @@ public class oopt {
         motor m4 = new motor(50, motor.TYPE.DIESEL);
         tank c4 = new tank(30,50);
 
-        auto a4 = new auto(m4,"Audi","blau","ABCD1234!",3.9);
-        a4.drive(10);
+        auto a4 = new auto(c4,m4,"Audi","blau","ABCD1234!",3.9);
+        a4.drive(-1);
         /* a4.brems();
         a4.turboboost();
         a4.honk(5);

@@ -53,7 +53,7 @@ public class auto {
         for (int i = 0; i < wh; i++) {
             System.out.println("Tuut");
         }
-        System.out.println("I bin an "+  this.brand + " hab die farbe " + this.color + " und I schluck " + this.getMotor().getType());
+        System.out.println("I bin an "+  this.brand + " hab die farbe " + this.color + " und I schluck " + this.getMotor().getType() + this.);
     }
     public void getremrange(){
          int restreichweite = (int) ((fmount / fuelConsumption)*100);

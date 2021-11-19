@@ -4,7 +4,7 @@ public class motor {
     public enum TYPE{DIESEL,BENZIN}
     private int ps;
     private TYPE type;
-
+    private int speed;
     public motor(int ps, TYPE type) {
         this.ps = ps;
         this.type = type;
@@ -15,7 +15,7 @@ public class motor {
     }
 
     public void fahren(int anzahl){
-        System.out.println("Da motor läuft mit"+ anzahl);
+
     }
 
     public com.smortify.michael.projekte.oop.test.motor.TYPE getType() {

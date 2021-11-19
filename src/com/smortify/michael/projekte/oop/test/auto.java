@@ -25,9 +25,7 @@ public class auto {
     }
 
     public void drive(){
-        this.fmount = (int) (this.fmount - this.fuelConsumption);
-        System.out.println("Brrrrrrrrrrrrrrrrrrrrrr i fahr grad brrrrrrrrrr");
-        System.out.println();
+        motor.fahren();
     };
 
     /*

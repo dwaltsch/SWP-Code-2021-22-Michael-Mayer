@@ -28,6 +28,7 @@ public class auto {
                 String blau,
                 String col,
                 double v) {
+
     }
 
     public void drive(int geschwindigkeit){

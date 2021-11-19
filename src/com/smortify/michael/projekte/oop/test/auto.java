@@ -25,8 +25,8 @@ public class auto {
     public auto(com.smortify.michael.projekte.oop.test.tank tank, com.smortify.michael.projekte.oop.test.motor i, String blau, String col, double v) {
     }
 
-    public void drive(int geschwindigkeit) {
-        this.motor.fahren(geschwindigkeit);
+    public void drive(int geschwindigkeit , tank) {
+        this.motor.fahren(geschwindigkeit , tank);
     }
 
     /*

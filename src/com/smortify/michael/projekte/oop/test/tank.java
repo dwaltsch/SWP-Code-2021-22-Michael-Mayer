@@ -9,11 +9,16 @@ public class tank {
         this.tankinhalt = tankinhalt;
     }
 
+
     public int getFullstand() {
         return fullstand;
     }
 
     public void setFullstand(int fullstand) {
         this.fullstand = fullstand;
+    }
+
+    public int getTankinhalt() {
+        return tankinhalt;
     }
 }

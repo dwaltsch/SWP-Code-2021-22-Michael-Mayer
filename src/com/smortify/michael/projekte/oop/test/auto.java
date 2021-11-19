@@ -13,6 +13,7 @@ public class auto {
     private motor motor;
     private tank tank;
 
+
     public auto(tank tank , motor motor, String b, String col , String sn,double fl){
         this.motor = motor;
         this.brand = b;

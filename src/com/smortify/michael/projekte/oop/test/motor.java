@@ -1,5 +1,4 @@
 package com.smortify.michael.projekte.oop.test;
-import com.smortify.michael.projekte.oop.test.tank;
 
 public class motor {
     private final int ps;
@@ -21,7 +20,7 @@ public class motor {
 
     public void fahren(int speed) {
         System.out.println("Brrrrrrrrr");
-
+        tank.getFullstand();
     }
 
     public com.smortify.michael.projekte.oop.test.motor.TYPE getType() {

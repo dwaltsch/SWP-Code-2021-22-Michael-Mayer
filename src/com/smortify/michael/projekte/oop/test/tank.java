@@ -1,11 +1,11 @@
 package com.smortify.michael.projekte.oop.test;
 
 public class tank {
-    private final int tankinhalt;
     private int fullstand;
+    private final int tankinhalt;
 
     public tank(int fullstand, int tankinhalt) {
-        this.fullstand = fullstand;
+        this.setFullstand(fullstand);
         this.tankinhalt = tankinhalt;
     }
 

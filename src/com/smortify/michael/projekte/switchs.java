@@ -6,9 +6,9 @@ public class switchs {
     public static void main(String[] args) {
         // Erstelle eine Zufallszahl zwischen 5 und 10
         Random random = new Random();
-        int randomNumber = random.nextInt(5)+5;
+        int randomNumber = random.nextInt(5) + 5;
         System.out.println(randomNumber);
-        switch(randomNumber){
+        switch (randomNumber) {
             case 10:
                 System.out.println("Ten");
                 break;

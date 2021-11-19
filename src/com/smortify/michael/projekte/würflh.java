@@ -23,19 +23,18 @@ public class würflh {
         Scanner scanner = new Scanner(System.in);
         int auswahl = scanner.nextInt();
 
-        if(auswahl < 3){
+        if (auswahl < 3) {
             for (int i = 1; i < 7; i++) {
-                int r = random.nextInt(6)+1;
+                int r = random.nextInt(6) + 1;
                 ergb = ergb + r;
-                int b = random.nextInt(6+computeradvantage)+1;
+                int b = random.nextInt(6 + computeradvantage) + 1;
                 rb = rb + b;
-                if(i==6){
+                if (i == 6) {
                     System.out.println("Ihr Ergebniss ist: " + ergb);
                     System.out.println("Der Computer hat: " + rb);
-                    if(ergb > rb){
+                    if (ergb > rb) {
                         System.out.println("Gratuliere irgendwie haben sie gewonnen");
-                    }
-                    else if(ergb<rb){
+                    } else if (ergb < rb) {
                         System.out.println("Ez Computer hat gewonnen");
                     }
                 }

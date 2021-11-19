@@ -35,13 +35,10 @@ public class banckomaht {
                     kontostand = kontostand - einb;
                     System.out.println("Do haste die Geld");
                 }
-                ;
                 if (confirm == 2) {
                     System.out.println("Gute Entscheidung tschö");
                 }
-                ;
             }
-            ;
             if (auswahl == 3) {
                 System.out.println("Ihr Kontostand beträgt " + kontostand + " Dogecoin");
                 if (kontostand < 100) {
@@ -49,9 +46,7 @@ public class banckomaht {
                 } else if (kontostand == 150) {
                     System.out.println("Immerhin reichts für an Monat");
                 }
-                ;
             }
-            ;
             if (auswahl == 4) {
                 System.out.println("Des ist aber ned grad nett sind se sich do sicher?");
                 System.out.println("1 Ja gib die Kohle her i hab a Puffn");

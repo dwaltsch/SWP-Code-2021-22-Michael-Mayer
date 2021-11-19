@@ -14,7 +14,7 @@ public class loops {
 //5050
 
         int b = 0;
-        for(int i = 2; i < 1001; i = i + 2){
+        for (int i = 2; i < 1001; i = i + 2) {
             System.out.println(i);
             b = b + i;
             System.out.println(b);

@@ -1,4 +1,5 @@
 package com.smortify.michael.projekte.oop.test;
+import com.smortify.michael.projekte.oop.test.tank;
 
 public class motor {
     public enum TYPE{DIESEL,BENZIN}
@@ -16,7 +17,6 @@ public class motor {
 
     public void fahren(int speed){
         System.out.println("Brrrrrrrrr");
-
 
     }
 

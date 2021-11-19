@@ -6,8 +6,7 @@ public class oopt {
 
     public static void main(String[] args) {
         motor m4 = new motor(50, motor.TYPE.DIESEL);
-
-        auto a4 = new auto(m4,"blau","ABCD1234!",3.9);
+        auto a4 = new auto(m4,"Audi","blau","ABCD1234!",3.9);
         a4.drive();
         a4.brems();
         a4.turboboost();

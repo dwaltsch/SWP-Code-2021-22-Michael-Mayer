@@ -9,10 +9,11 @@ public class auto {
     private int fmount = 45;
     public int fcons;
     private boolean abgasbetrug = true;
-
+    public int geschwindigkeit;
     private motor motor;
+    private tank tank;
 
-    public auto(motor motor, String b, String col , String sn,double fl){
+    public auto(tank tank , motor motor, String b, String col , String sn,double fl){
         this.motor = motor;
         this.brand = b;
         this.serialnumber = sn;
@@ -24,8 +25,8 @@ public class auto {
     public auto(com.smortify.michael.projekte.oop.test.motor i, String blau, String col, double v) {
     }
 
-    public void drive(){
-        motor.fahren();
+    public void drive(int geschwindigkeit){
+        motor.fahren(geschwindigkeit);
     };
 
     /*

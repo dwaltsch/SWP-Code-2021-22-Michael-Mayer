@@ -14,7 +14,10 @@ public class motor {
         return ps;
     }
 
-    public void fahren(int anzahl){
+    public void fahren(int speed){
+        if(speed > 50){
+
+        }
 
     }
 

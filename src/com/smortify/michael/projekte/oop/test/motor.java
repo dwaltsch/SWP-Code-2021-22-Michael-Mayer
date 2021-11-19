@@ -16,7 +16,8 @@ public class motor {
 
     public void fahren(int speed){
         System.out.println("Brrrrrrrrr");
-        
+
+
     }
 
     public com.smortify.michael.projekte.oop.test.motor.TYPE getType() {

@@ -22,11 +22,15 @@ public class auto {
 
     }
 
-    public auto(com.smortify.michael.projekte.oop.test.motor i, String blau, String col, double v) {
+    public auto(com.smortify.michael.projekte.oop.test.tank tank,
+                com.smortify.michael.projekte.oop.test.motor i,
+                String blau,
+                String col,
+                double v) {
     }
 
     public void drive(int geschwindigkeit){
-        motor.fahren(geschwindigkeit);
+        this.motor.fahren(geschwindigkeit);
     };
 
     /*
@@ -53,7 +57,7 @@ public class auto {
         for (int i = 0; i < wh; i++) {
             System.out.println("Tuut");
         }
-        System.out.println("I bin an "+  this.brand + " hab die farbe " + this.color + " und I schluck " + this.getMotor().getType() + this.);
+        System.out.println("I bin an "+  this.brand + " hab die farbe " + this.color + " und I schluck " + this.getMotor().getType() + this.tank.getFullstand());
     }
     public void getremrange(){
          int restreichweite = (int) ((fmount / fuelConsumption)*100);

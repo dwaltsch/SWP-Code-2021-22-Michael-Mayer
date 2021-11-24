@@ -2,7 +2,7 @@ package com.smortify.michael.projekte.basics.ifaufgabe;
 
 import java.util.Random;
 
-public class if2 {
+public class If2 {
     public static void main(String[] args) {
         // Erstelle zwei Zufallszahl zwischen 0 und 100
         Random random = new Random();

@@ -1,17 +1,15 @@
 package com.smortify.michael.projekte.basics.javabasics;
 
-public class loops {
+public class Loops {
     public static void main(String[] args) {
-        /*
-        int b = 0;
-        for(int i = 0; i < 101; i++){
+        int a = 0;
+        for (int i = 0; i < 101; i++) {
             System.out.println(i);
-            b = b + i;
-            System.out.println(b);
+            a = a + i;
+            System.out.println(a);
         }
 
-         */
-//5050
+// one needs to be commented out
 
         int b = 0;
         for (int i = 2; i < 1001; i = i + 2) {

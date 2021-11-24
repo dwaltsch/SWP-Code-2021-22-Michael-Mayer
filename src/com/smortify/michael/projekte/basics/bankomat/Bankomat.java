@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Bankomat {
     public static void main(String[] args) {
         int kontostand = 0;
-        int leberkäs = 2;
+        int price = 2;
         boolean isoff = false;
         System.out.println("Willkommen am Bankomat was wollen se machen:");
         System.out.println("1. Einzahlen");
@@ -59,7 +59,7 @@ public class Bankomat {
                 }
                 if (auswahhl == 2) {
                     System.out.println("Passt guat do hast die Geld");
-                    kontostand = kontostand - leberkäs;
+                    kontostand = kontostand - price;
                 }
             }
             if (auswahl == 5) {

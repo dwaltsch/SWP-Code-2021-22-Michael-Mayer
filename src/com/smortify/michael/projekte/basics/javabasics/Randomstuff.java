@@ -2,25 +2,25 @@ package com.smortify.michael.projekte.basics.javabasics;
 
 import java.util.Random;
 
-public class whln {
+public class Randomstuff {
     public static void main(String[] args) {
         Random random = new Random();
-        boolean isgud = false;
+        boolean istrue = false;
         int b = 0;
-        while (!isgud) {
+        while (!istrue) {
             int randomNumber = random.nextInt(20) + 10;
             System.out.println(randomNumber);
             b = b + randomNumber;
             if (randomNumber == 15) {
-                isgud = true;
+                istrue = true;
                 System.out.println(b);
                 break;
             } else if (randomNumber == 25) {
-                isgud = true;
+                istrue = true;
                 System.out.println(b);
                 break;
             } else {
-                isgud = false;
+                istrue = false;
             }
         }
 

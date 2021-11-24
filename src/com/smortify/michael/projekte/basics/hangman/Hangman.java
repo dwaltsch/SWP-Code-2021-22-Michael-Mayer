@@ -5,26 +5,26 @@ import java.util.Scanner;
 
 public class Hangman {
     public static void main(String[] args) {
-        Scanner scammer = new Scanner(System.in);
-        Random rendom = new Random();
-        int r = rendom.nextInt(3);
+        Scanner scanner2 = new Scanner(System.in);
+        Random random = new Random();
+        int randomnumber = random.nextInt(3);
         System.out.println();
         String[] Worter = {"test", "abc", "wort"};
-        String auW = Worter[r];
-        char[] Wort = new char[auW.length()];
+        String useword = Worter[randomnumber];
+        char[] Wort = new char[useword.length()];
         for (int i = 0; i < Wort.length; i++) {
-            Wort[i] = auW.charAt(i);
+            Wort[i] = useword.charAt(i);
         }
 
-        char[] zen = new char[auW.length()];
+        char[] zen = new char[useword.length()];
         for (int i = 0; i < zen.length; i++) {
             zen[i] = '*';
         }
-        String fullW = "";
-        boolean win = false;
+        String fullword = "";
+        boolean iswin = false;
 
-        while (!win) {
-            char nt = scammer.next().charAt(0);
+        while (!iswin) {
+            char nt = scanner2.next().charAt(0);
 
             for (int i = 0; i < Wort.length; i++) {
                 if (Wort[i] == nt) {
@@ -34,16 +34,17 @@ public class Hangman {
             }
 
 
-            for (int bi = 0; bi < zen.length; bi++) {
-                fullW = fullW + zen[bi];
+            for (int ii = 0; ii < zen.length; ii++) {
+                fullword = fullword + zen[ii];
             }
-            System.out.println(fullW);
-            if (fullW.contains("*")) {
+
+            System.out.println(fullword);
+            if (fullword.contains("*")) {
             } else {
                 System.out.println("Gratuliere sie haben gewonnen");
-                win = true;
+                iswin = true;
             }
-            fullW = "";
+            fullword = "";
         }
     }
 }

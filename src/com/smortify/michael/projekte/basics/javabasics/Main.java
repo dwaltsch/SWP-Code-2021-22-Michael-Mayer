@@ -1,4 +1,4 @@
-package com.smortify.michael.projekte;
+package com.smortify.michael.projekte.basics.javabasics;
 
 public class Main {
     public static void main(String[] args) {

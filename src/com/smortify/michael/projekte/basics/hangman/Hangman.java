@@ -1,9 +1,9 @@
-package com.smortify.michael.projekte;
+package com.smortify.michael.projekte.basics.hangman;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class totermann {
+public class Hangman {
     public static void main(String[] args) {
         Scanner scammer = new Scanner(System.in);
         Random rendom = new Random();

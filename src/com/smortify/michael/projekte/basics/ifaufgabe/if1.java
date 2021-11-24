@@ -1,4 +1,4 @@
-package com.smortify.michael.projekte;
+package com.smortify.michael.projekte.basics.ifaufgabe;
 
 import java.util.Random;
 

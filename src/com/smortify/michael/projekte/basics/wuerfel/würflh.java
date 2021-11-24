@@ -1,4 +1,4 @@
-package com.smortify.michael.projekte;
+package com.smortify.michael.projekte.basics.wuerfel;
 
 import java.util.Random;
 import java.util.Scanner;

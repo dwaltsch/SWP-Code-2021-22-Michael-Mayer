@@ -1,8 +1,8 @@
-package com.smortify.michael.projekte;
+package com.smortify.michael.projekte.basics.bankomat;
 
 import java.util.Scanner;
 
-public class banckomaht {
+public class Bankomat {
     public static void main(String[] args) {
         int kontostand = 0;
         int leberkäs = 2;

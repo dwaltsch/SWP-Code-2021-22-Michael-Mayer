@@ -1,8 +1,8 @@
-package com.smortify.michael.projekte;
+package com.smortify.michael.projekte.basics.tiktok;
 
 import java.util.Scanner;
 
-public class ticktock {
+public class tiktok {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("****************************");

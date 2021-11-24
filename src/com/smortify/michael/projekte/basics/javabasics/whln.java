@@ -1,4 +1,4 @@
-package com.smortify.michael.projekte;
+package com.smortify.michael.projekte.basics.javabasics;
 
 import java.util.Random;
 

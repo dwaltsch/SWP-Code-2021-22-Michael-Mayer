@@ -5,7 +5,7 @@ import com.smortify.michael.projekte.oop.car.auto.bauteile.reifen.Tire;
 import com.smortify.michael.projekte.oop.car.auto.bauteile.spiegel.Rearmirror;
 import com.smortify.michael.projekte.oop.car.auto.bauteile.tank.Tank;
 
-public class Auto {
+public class Car {
     Tank t1 = new Tank();
     Motor m4 = new Motor();
     Tire r1 = new Tire();
@@ -13,12 +13,21 @@ public class Auto {
     private String color;
     private String serial;
 
-    public void drive() {
-
-
+    public Car(Tank t1, Motor m4, Tire r1, Rearmirror ruk1, String color, String serial) {
+        this.t1 = t1;
+        this.m4 = m4;
+        this.r1 = r1;
+        this.ruk1 = ruk1;
+        this.color = color;
+        this.serial = serial;
     }
 
+    public void drive(int speed) {
+        m4.drive(speed);
+
+    }
     ;
+
 
     public void brk() {
 

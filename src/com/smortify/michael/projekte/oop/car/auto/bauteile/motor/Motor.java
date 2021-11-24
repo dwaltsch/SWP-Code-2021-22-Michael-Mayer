@@ -10,4 +10,8 @@ public class Motor {
     public void setFuelusage(int fuelusage) {
         this.fuelusage = fuelusage;
     }
+
+    public void drive(int speed) {
+        System.out.println("I am driving very fast brrrrrrrrrr");
+    }
 }

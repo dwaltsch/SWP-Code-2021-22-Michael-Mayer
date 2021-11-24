@@ -6,6 +6,6 @@ import com.smortify.michael.projekte.oop.test.tank;
 public class oopt {
 
     public static void main(String[] args) {
-
+        auto a4 = new auto();
     }
 }

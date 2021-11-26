@@ -4,6 +4,7 @@ import com.smortify.michael.projekte.oop.car.auto.bauteile.motor.Motor;
 import com.smortify.michael.projekte.oop.car.auto.bauteile.reifen.Tire;
 import com.smortify.michael.projekte.oop.car.auto.bauteile.spiegel.Rearmirror;
 import com.smortify.michael.projekte.oop.car.auto.bauteile.tank.Tank;
+import java.util.List;
 
 public class Car {
 
@@ -12,6 +13,7 @@ public class Car {
     private String color;
     private String serial;
     private String brand;
+    private List<Rearmirror> mirror;
 
     public Car(Motor motor, Tank tank, String color, String serial, String brand) {
         this.motor = motor;
@@ -55,7 +57,9 @@ public class Car {
             // AdBlau
         }
     };
+    public void addmirror(Rearmirror rearmirror){
 
+    }
 
 }
 

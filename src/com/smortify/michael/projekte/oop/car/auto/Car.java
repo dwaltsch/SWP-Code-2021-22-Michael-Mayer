@@ -8,12 +8,14 @@ import com.smortify.michael.projekte.oop.car.auto.bauteile.tank.Tank;
 public class Car {
 
     private Motor motor;
+    private Tank tank;
     private String color;
     private String serial;
     private String brand;
 
-    public Car(Motor motor, String color, String serial, String brand) {
+    public Car(Motor motor, Tank tank, String color, String serial, String brand) {
         this.motor = motor;
+        this.tank = tank;
         this.color = color;
         this.serial = serial;
         this.brand = brand;
@@ -21,8 +23,8 @@ public class Car {
 
 
 
-    public void drive(int speed) {
-        motor.drive(speed);
+    public void drive(Tank tank, int speed) {
+        motor.drive(tank,speed);
 
     }
     ;
@@ -33,7 +35,7 @@ public class Car {
     };
 
     public void getrange(int verbrauch) {
-
+        tank.restreichweite(verbrauch);
     };
 
     public void honk(int amnt) {

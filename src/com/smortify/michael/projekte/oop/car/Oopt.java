@@ -8,12 +8,13 @@ import com.smortify.michael.projekte.oop.car.auto.bauteile.tank.Tank;
 public class Oopt {
 
     public static void main(String[] args) {
-        Tank t1 = new Tank();
+        Tank t1 = new Tank(50, Tank.TYPE.DIESEL,20);
         Motor m4 = new Motor(4, Motor.TYPE.DIESEL);
+        Car a4 = new Car(m4, t1,"blau", "ABCD1234!","Audi");
 
-        Car a4 = new Car(m4, "blau", "ABCD1234!","Audi");
-
-        a4.honk(50);
+        a4.honk(2);
+        a4.drive(t1, 100);
+        a4.getrange(4);
     }
 
 }

@@ -1,5 +1,7 @@
 package com.smortify.michael.projekte.oop.car.auto.bauteile.motor;
 
+import com.smortify.michael.projekte.oop.car.auto.bauteile.tank.Tank;
+
 public class Motor {
     private int fuelusage;
     private TYPE type;
@@ -16,8 +18,10 @@ public class Motor {
     public void setFuelusage(int fuelusage) {
         this.fuelusage = fuelusage;
     }
-    public void drive(int speed) {
+
+    public void drive(Tank tank ,int speed) {
         System.out.println("I am driving very fast brrrrrrrrrr");
+        tank.setInhalt(tank.getInhalt() - 20 );
     }
 
 }

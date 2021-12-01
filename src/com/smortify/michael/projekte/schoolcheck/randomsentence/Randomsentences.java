@@ -13,7 +13,7 @@ public class Randomsentences {
             System.out.println("@Manuel bitte nichts anderes als eine Zahl eingeben");
             int anzahlsaetze = scanner.nextInt();
 
-            Random random = new Random();
+            Random randomizer2000 = new Random();
 
             // mir sind keine besseren Variablennamen eingefallen
             String[] heOrSheString = {"Er " , "Sie "};
@@ -21,8 +21,8 @@ public class Randomsentences {
             String[] whereDoTheyGo = {"nach Hause.","zur Schule","ins Büro","zur Party"};
 
             for (int i = 0; i < anzahlsaetze; i++) {
-                int heOrShe = random.nextInt(2);
-                int whatDoThey = random.nextInt(4);
+                int heOrShe = randomizer2000.nextInt(2);
+                int whatDoThey = randomizer2000.nextInt(4);
                 System.out.println(heOrSheString[heOrShe]+whatDoTheyDo[whatDoThey]+whereDoTheyGo[whatDoThey]);
             }
             System.out.println("Wollens nochmal");

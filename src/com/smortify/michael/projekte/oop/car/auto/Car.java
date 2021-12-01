@@ -16,6 +16,7 @@ public class Car {
     private String serial;
     private String brand;
     private List<Rearmirror> mirror;
+    private List<Tire> tires;
 
     public Car(Motor motor, Tank tank, String color, String serial, String brand) {
         this.motor = motor;
@@ -24,6 +25,7 @@ public class Car {
         this.serial = serial;
         this.brand = brand;
         this.mirror= new ArrayList<>();
+        this.tires = new ArrayList<>();
     }
 
 
@@ -64,8 +66,16 @@ public class Car {
         this.mirror.add(rearmirror);
     }
 
+    public void addtires(Tire tires){
+        this.tires.add(tires);
+    }
+
     public List<Rearmirror> getMirror() {
         return mirror;
+    }
+
+    public List<Tire> getTires() {
+        return tires;
     }
 }
 

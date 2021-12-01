@@ -24,5 +24,4 @@ public class Motor {
         System.out.println("I am driving very fast brrrrrrrrrr");
         tank.setInhalt(tank.getInhalt() - 20 );
     }
-
 }

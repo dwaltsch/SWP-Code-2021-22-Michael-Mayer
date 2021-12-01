@@ -20,6 +20,7 @@ public class Oopt {
         a4.drive(t1, 100);
         a4.getrange(4);
         System.out.println(a4.getMirror().get(1).getPosition());
+
     }
 
 }

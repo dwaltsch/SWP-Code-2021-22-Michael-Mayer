@@ -2,11 +2,11 @@ package com.smortify.michael.projekte.oop.car2.car.manufacturer;
 
 public class Manufacturer {
     private manufacturer manufacturer;
+
     public enum manufacturer {Gaudi,Bayrischer_Mistwagen,Mercesus,Saahb,Schevroleh,Fort,Volvo,Toyoda}
-    public origincountry origincountry;
+    private origincountry origincountry;
     public enum origincountry {Piefkeland,Amiland,Ikealand,Nuketown}
     private int manufacturerdiscount;
-
 
     public Manufacturer(Manufacturer.manufacturer manufacturer, Manufacturer.origincountry origincountry, int manufacturerdiscount) {
         this.manufacturer = manufacturer;

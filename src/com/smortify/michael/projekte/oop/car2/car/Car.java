@@ -26,7 +26,8 @@ public class Car {
     }
 
     public int getPrice() {
-        int realprice = price - (price * manufacturer.getManufacturerdiscount());
+        int realprice;
+        realprice = price - ((price/ 100)  * manufacturer.getManufacturerdiscount());
         return realprice;
     }
 

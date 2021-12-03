@@ -4,8 +4,6 @@ public class Tire {
     private int abnutzung;
     private int size;
     private manufacturer manufacturer;
-
-
     public enum manufacturer {PIRELLI, MICHAELIN,INTERCONTINENTAL,HANCOCK,BADYEAR,VEGA,}
     private int alter;
     private int profil;

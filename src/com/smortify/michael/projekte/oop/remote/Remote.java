@@ -8,9 +8,7 @@ public class Remote {
     private Battery battery1;
     private Battery battery2;
 
-    public Remote(boolean isOn, boolean hasPower, Battery battery1, Battery battery2) {
-        this.isOn = isOn;
-        this.hasPower = hasPower;
+    public Remote(Battery battery1, Battery battery2) {
         this.battery1 = battery1;
         this.battery2 = battery2;
     }
@@ -26,7 +24,8 @@ public class Remote {
         battery2.turnoffstatus();
     }
     public int getStatus(){
-        int status = battery1.getChargingStatus() + battery2.getChargingStatus();
+        int status = (battery1.getChargingStatus() + battery2.getChargingStatus())/2;
+        System.out.println(status);
         return status;
     }
 

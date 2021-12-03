@@ -10,13 +10,13 @@ import java.util.List;
 
 public class Car {
 
-    private Motor motor;
-    private Tank tank;
-    private String color;
-    private String serial;
-    private String brand;
-    private List<Rearmirror> mirror;
-    private List<Tire> tires;
+    private final Motor motor;
+    private final Tank tank;
+    private final String color;
+    private final String serial;
+    private final String brand;
+    private final List<Rearmirror> mirror;
+    private final List<Tire> tires;
 
     public Car(Motor motor, Tank tank, String color, String serial, String brand) {
         this.motor = motor;
@@ -24,26 +24,24 @@ public class Car {
         this.color = color;
         this.serial = serial;
         this.brand = brand;
-        this.mirror= new ArrayList<>();
+        this.mirror = new ArrayList<>();
         this.tires = new ArrayList<>();
     }
 
 
-
     public void drive(Tank tank, int speed) {
-        motor.drive(tank,speed);
+        motor.drive(tank, speed);
 
     }
-    ;
 
 
     public void breakcar() {
         System.out.println("Ich bremse");
-    };
+    }
 
     public void getrange(int verbrauch) {
         tank.restreichweite(verbrauch);
-    };
+    }
 
     public void honk(int amnt) {
         for (int i = 0; i < amnt; i++) {
@@ -51,22 +49,21 @@ public class Car {
         }
     }
 
-    public void tanken(int fuelvariant , int amount){
-        if(fuelvariant == 1){
+    public void tanken(int fuelvariant, int amount) {
+        if (fuelvariant == 1) {
             // Benzin
-        }
-        else if(fuelvariant == 2){
+        } else if (fuelvariant == 2) {
             // Diesel
-        }
-        else if (fuelvariant == 3){
+        } else if (fuelvariant == 3) {
             // AdBlau
         }
-    };
-    public void addmirror(Rearmirror rearmirror){
+    }
+
+    public void addmirror(Rearmirror rearmirror) {
         this.mirror.add(rearmirror);
     }
 
-    public void addtires(Tire tires){
+    public void addtires(Tire tires) {
         this.tires.add(tires);
     }
 

@@ -6,7 +6,7 @@ public class Person {
     public static void main(String[] args) {
         Battery battery1 = new Battery(100);
         Battery battery2 = new Battery(100);
-        Remote remote = new Remote(battery1,battery2);
+        Remote remote = new Remote(battery1, battery2);
         remote.turnOn();
         remote.getStatus();
     }

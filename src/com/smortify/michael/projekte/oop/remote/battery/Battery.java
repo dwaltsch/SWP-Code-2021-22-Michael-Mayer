@@ -3,11 +3,12 @@ package com.smortify.michael.projekte.oop.remote.battery;
 public class Battery {
     private int chargingStatus;
 
-    public void turnonstatus(){
-        System.out.println("Verbraucher angeschlossen");
-    }
     public Battery(int chargingStatus) {
         this.chargingStatus = chargingStatus;
+    }
+
+    public void turnonstatus() {
+        System.out.println("Verbraucher angeschlossen");
     }
 
     public int getChargingStatus() {
@@ -18,7 +19,7 @@ public class Battery {
         this.chargingStatus = chargingStatus;
     }
 
-    public void turnoffstatus(){
+    public void turnoffstatus() {
         System.out.println("Kein Verbraucher angeschlossen");
         System.out.println(this.chargingStatus);
     }

@@ -1,8 +1,8 @@
 package com.smortify.michael.projekte.oop.car.auto.bauteile.spiegel;
 
 public class Rearmirror {
-private int size;
-private int position;
+    private int size;
+    private int position;
 
     public Rearmirror(int size, int position) {
         this.size = size;

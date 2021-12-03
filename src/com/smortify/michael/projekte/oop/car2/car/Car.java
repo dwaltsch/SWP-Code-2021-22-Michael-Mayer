@@ -1,4 +1,5 @@
 package com.smortify.michael.projekte.oop.car2.car;
+
 import com.smortify.michael.projekte.oop.car2.car.manufacturer.Manufacturer;
 import com.smortify.michael.projekte.oop.car2.car.parts.engine.Engine;
 
@@ -27,7 +28,7 @@ public class Car {
 
     public int getPrice() {
         int realprice;
-        realprice = price - ((price/ 100)  * manufacturer.getManufacturerdiscount());
+        realprice = price - ((price / 100) * manufacturer.getManufacturerdiscount());
         return realprice;
     }
 

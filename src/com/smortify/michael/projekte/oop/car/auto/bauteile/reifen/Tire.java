@@ -1,13 +1,11 @@
 package com.smortify.michael.projekte.oop.car.auto.bauteile.reifen;
 
 public class Tire {
-    private int abnutzung;
-    private int size;
-    private manufacturer manufacturer;
-    public enum manufacturer {PIRELLI, MICHAELIN,INTERCONTINENTAL,HANCOCK,BADYEAR,VEGA,}
-    private int alter;
-    private int profil;
-
+    private final int abnutzung;
+    private final int size;
+    private final manufacturer manufacturer;
+    private final int alter;
+    private final int profil;
     public Tire(int abnutzung, int size, manufacturer manufacturer, int alter, int profil) {
         this.abnutzung = abnutzung;
         this.size = size;
@@ -35,4 +33,6 @@ public class Tire {
     public int getProfil() {
         return profil;
     }
+
+    public enum manufacturer {PIRELLI, MICHAELIN, INTERCONTINENTAL, HANCOCK, BADYEAR, VEGA,}
 }

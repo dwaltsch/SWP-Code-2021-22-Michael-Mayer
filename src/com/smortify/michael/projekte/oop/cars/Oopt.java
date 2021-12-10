@@ -12,6 +12,6 @@ public class Oopt {
         System.out.println(car.getPrice());
         car.drive(500);
         car.printMileage();
-        Truck t1 = new Truck("Dingens",5,5,5,5,engine,manufacturer);
+        Truck t1 = new Truck("Dingens", 5, 5, 5, 5, engine, manufacturer);
     }
 }

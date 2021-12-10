@@ -19,9 +19,13 @@ public class Car {
         this.engine = engine;
         this.manufacturer = manufacturer;
     }
-    public void stop(){
+
+    public void stop() {
         System.out.println("OK");
-    };
+    }
+
+    ;
+
     public int getMileage() {
         return mileage;
     }

@@ -3,11 +3,13 @@ package com.smortify.michael.projekte.oop.ishasa.zoo.animal;
 public class Animal {
     private int weight;
     private int height;
-    public void move(){}
 
     public Animal(int weight, int height) {
         this.weight = weight;
         this.height = height;
+    }
+
+    public void move() {
     }
 
     public int getWeight() {

@@ -3,10 +3,10 @@ package com.smortify.michael.projekte.oop.remote;
 import com.smortify.michael.projekte.oop.remote.battery.Battery;
 
 public class Remote {
-    private boolean isOn;
-    private boolean hasPower;
     private final Battery battery1;
     private final Battery battery2;
+    private boolean isOn;
+    private boolean hasPower;
 
     public Remote(Battery battery1, Battery battery2) {
         this.battery1 = battery1;

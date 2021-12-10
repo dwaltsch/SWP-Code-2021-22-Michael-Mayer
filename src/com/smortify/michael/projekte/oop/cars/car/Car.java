@@ -1,7 +1,7 @@
-package com.smortify.michael.projekte.oop.car2.car;
+package com.smortify.michael.projekte.oop.cars.car;
 
-import com.smortify.michael.projekte.oop.car2.car.manufacturer.Manufacturer;
-import com.smortify.michael.projekte.oop.car2.car.parts.engine.Engine;
+import com.smortify.michael.projekte.oop.cars.car.manufacturer.Manufacturer;
+import com.smortify.michael.projekte.oop.cars.car.parts.engine.Engine;
 
 public class Car {
     private int maxspeed;
@@ -9,13 +9,27 @@ public class Car {
     private int fuelusage;
     private Engine engine;
     private Manufacturer manufacturer;
+    private int mileage;
 
-    public Car(int maxspeed, int price, int fuelusage, Engine engine, Manufacturer manufacturer) {
+    public Car(int mileage, int maxspeed, int price, int fuelusage, Engine engine, Manufacturer manufacturer) {
+        this.mileage = mileage;
         this.maxspeed = maxspeed;
         this.price = price;
         this.fuelusage = fuelusage;
         this.engine = engine;
         this.manufacturer = manufacturer;
+    }
+
+    public int getMileage() {
+        return mileage;
+    }
+
+    public void setMileage(int mileage) {
+        this.mileage = mileage;
+    }
+
+    public void printMileage() {
+        System.out.println(this.mileage);
     }
 
     public int getMaxspeed() {
@@ -34,6 +48,16 @@ public class Car {
 
     public void setPrice(int price) {
         this.price = price;
+    }
+
+    public void drive(int amountofkm) {
+        this.mileage = getMileage() + amountofkm;
+        if (this.mileage >= 50000) {
+            this.fuelusage = (int) (this.fuelusage * 1.098);
+            System.out.println("Current Fuel usage " + getFuelusage() + " l per 100 km");
+        } else {
+            System.out.println("Current Fuel usage " + getFuelusage() + " l per 100 km");
+        }
     }
 
     public int getFuelusage() {

@@ -3,8 +3,8 @@ package com.smortify.michael.projekte.oop.car.auto.bauteile.motor;
 import com.smortify.michael.projekte.oop.car.auto.bauteile.tank.Tank;
 
 public class Motor {
-    private int fuelusage;
     private final TYPE type;
+    private int fuelusage;
 
     public Motor(int fuelusage, TYPE type) {
         this.fuelusage = fuelusage;

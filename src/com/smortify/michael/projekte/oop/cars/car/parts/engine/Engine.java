@@ -1,4 +1,4 @@
-package com.smortify.michael.projekte.oop.car2.car.parts.engine;
+package com.smortify.michael.projekte.oop.cars.car.parts.engine;
 
 public class Engine {
     private fuelType type;

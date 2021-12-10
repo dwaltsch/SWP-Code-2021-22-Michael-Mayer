@@ -6,6 +6,7 @@ public class Tire {
     private final manufacturer manufacturer;
     private final int alter;
     private final int profil;
+
     public Tire(int abnutzung, int size, manufacturer manufacturer, int alter, int profil) {
         this.abnutzung = abnutzung;
         this.size = size;

@@ -1,4 +1,4 @@
-package com.smortify.michael.projekte.oop.car2.car.manufacturer;
+package com.smortify.michael.projekte.oop.cars.car.manufacturer;
 
 public class Manufacturer {
 

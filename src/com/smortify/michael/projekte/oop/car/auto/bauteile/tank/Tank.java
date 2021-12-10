@@ -1,8 +1,8 @@
 package com.smortify.michael.projekte.oop.car.auto.bauteile.tank;
 
 public class Tank {
-    private int inhalt;
     private final TYPE type;
+    private int inhalt;
     private int adblueinhalt;
 
 

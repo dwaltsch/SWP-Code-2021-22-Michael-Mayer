@@ -2,6 +2,7 @@ package com.smortify.michael.projekte.oop.ishasa;
 
 import com.smortify.michael.projekte.oop.ishasa.zoo.Zoo;
 import com.smortify.michael.projekte.oop.ishasa.zoo.animal.Animal;
+import com.smortify.michael.projekte.oop.ishasa.zoo.animal.dog.Dog;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,6 +12,12 @@ public class Main {
         Zoo zoo = new Zoo("Kinderzoo", "Grosestrase");
         zoo.addAnimal(a1);
         zoo.addAnimal(a2);
+        zoo.printAnimal();
+
+        Dog d1 = new Dog(50,100);
+        d1.bark();
+
+        zoo.addAnimal(d1);
         zoo.printAnimal();
     }
 }

@@ -10,6 +10,13 @@ public class Phone {
     private Camera camera;
     private SDCard sdCard;
 
+    public Phone(String color, Sim sim, Camera camera, SDCard sdCard) {
+        this.color = color;
+        this.sim = sim;
+        this.camera = camera;
+        this.sdCard = sdCard;
+    }
+
     public void takePicture(){
 
     }
@@ -24,4 +31,13 @@ public class Phone {
     public void showallFiles(){
 
     }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
 }

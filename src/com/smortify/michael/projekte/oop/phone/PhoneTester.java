@@ -14,6 +14,6 @@ public class PhoneTester {
 
         phone.makeCall("06501122333", sim);
         phone.takePicture();
-
+        phone.showallFiles();
     }
 }

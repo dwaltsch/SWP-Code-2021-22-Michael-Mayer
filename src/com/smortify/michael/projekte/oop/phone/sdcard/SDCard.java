@@ -15,6 +15,7 @@ public class SDCard {
         this.manufacturer = manufacturer;
     }
 
+
     public void save(PhoneFile file){
         files.add(file);
     }
@@ -25,7 +26,7 @@ public class SDCard {
     public void saveFile(){
     }
 public void getallFiles(){
-
+    files.get(0);
 }
 public void getFreeSpace(){
 

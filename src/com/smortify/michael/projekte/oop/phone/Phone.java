@@ -29,7 +29,7 @@ public class Phone {
 
     }
     public void showallFiles(){
-
+        this.sdCard.getallFiles();
     }
 
     public String getColor() {

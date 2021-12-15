@@ -2,17 +2,30 @@ package com.smortify.michael.projekte.oop.phone.sdcard.phonefile;
 
 import com.smortify.michael.projekte.oop.phone.sdcard.SDCard;
 
-public class PhoneFile extends SDCard {
-
-    public PhoneFile(int storageSpace) {
-        super(storageSpace);
-    }
-    private enum extension {MP3,MKV}
+public class PhoneFile {
+    private String extension;
     private int size;
     private String name;
 
+    public PhoneFile(String extension, int size, String name) {
+        this.extension = extension;
+        this.size = size;
+        this.name = name;
+    }
 
     public void getInfo(){
 
+    }
+
+    public String getExtension() {
+        return extension;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public String getName() {
+        return name;
     }
 }

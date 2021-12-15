@@ -18,11 +18,11 @@ public class Phone {
     }
 
     public void takePicture(){
-
+        camera.makePicture();
     }
 
-    public void makeCall(String TelNr){
-
+    public void makeCall(String TelNr, Sim sim){
+        this.sim.doCall(TelNr,sim);
     }
 
     public void getSpace(){

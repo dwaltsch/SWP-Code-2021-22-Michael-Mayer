@@ -14,7 +14,7 @@ public class Main {
         zoo.addAnimal(a2);
         zoo.printAnimal();
 
-        Dog d1 = new Dog(50,100);
+        Dog d1 = new Dog(50, 100);
         d1.bark();
 
         zoo.addAnimal(d1);

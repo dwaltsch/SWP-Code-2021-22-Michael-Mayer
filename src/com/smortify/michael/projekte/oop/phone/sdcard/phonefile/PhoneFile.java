@@ -1,7 +1,5 @@
 package com.smortify.michael.projekte.oop.phone.sdcard.phonefile;
 
-import com.smortify.michael.projekte.oop.phone.sdcard.SDCard;
-
 public class PhoneFile {
     private String extension;
     private int size;
@@ -13,7 +11,7 @@ public class PhoneFile {
         this.name = name;
     }
 
-    public void getInfo(){
+    public void getInfo() {
 
     }
 

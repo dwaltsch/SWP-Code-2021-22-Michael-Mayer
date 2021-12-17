@@ -13,8 +13,8 @@ public class Camera {
     }
 
 
-    public PhoneFile makePicture(){
-        PhoneFile file = new PhoneFile("png",50,"foto"+filenumber);
+    public PhoneFile makePicture() {
+        PhoneFile file = new PhoneFile("png", 50, "foto" + filenumber);
         filenumber++;
         System.out.println("Foto gemacht");
         return file;

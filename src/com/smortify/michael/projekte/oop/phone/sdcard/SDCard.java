@@ -1,6 +1,5 @@
 package com.smortify.michael.projekte.oop.phone.sdcard;
 
-import com.smortify.michael.projekte.oop.phone.Phone;
 import com.smortify.michael.projekte.oop.phone.sdcard.phonefile.PhoneFile;
 
 import java.util.ArrayList;
@@ -18,13 +17,13 @@ public class SDCard {
     }
 
 
-    public void save(PhoneFile file){
-
-        files.add(file);
-    }
-
     public SDCard(int storageSpace) {
 
+    }
+
+    public void save(PhoneFile file) {
+
+        files.add(file);
     }
 
     public int getStorageSpace() {

@@ -11,7 +11,7 @@ public class Sim {
         this.number = number;
     }
 
-    public void doCall(String Tel, Sim sim){
+    public void doCall(String Tel, Sim sim) {
         System.out.println("Calling " + Tel + " from " + sim.CountryCode + sim.number);
     }
 }

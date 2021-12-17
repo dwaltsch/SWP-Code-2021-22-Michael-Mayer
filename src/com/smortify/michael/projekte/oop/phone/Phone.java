@@ -20,23 +20,33 @@ public class Phone {
         this.sdCard = sdCard;
     }
 
-    public void takePicture(){
+    public void takePicture() {
         PhoneFile file = camera.makePicture();
         this.sdCard.save(file);
     }
 
-    public void makeCall(String TelNr, Sim sim){
-        this.sim.doCall(TelNr,sim);
+    public void makeCall(String TelNr, Sim sim) {
+        this.sim.doCall(TelNr, sim);
     }
 
-    public void getSpace(){
+    public void getSpace() {
 
     }
-    public void showallFiles(){
+
+    public void showallFiles() {
         List<PhoneFile> files = this.sdCard.getFiles();
-        for (PhoneFile file : files){
+        for (PhoneFile file : files) {
             System.out.println(file.getName());
         }
+    }
+
+    public void getfreeSpace() {
+        int size = 0;
+        List<PhoneFile> files = this.sdCard.getFiles();
+        for (PhoneFile file : files) {
+            size += file.getSize();
+        }
+        System.out.println("You used " + size + " MB there are  " + (sdCard.getStorageSpace() - size) + " MB remaining on disk");
     }
 
     public String getColor() {

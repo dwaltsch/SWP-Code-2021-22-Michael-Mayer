@@ -3,6 +3,7 @@ package com.smortify.michael.projekte.oop.phone.sdcard;
 import com.smortify.michael.projekte.oop.phone.Phone;
 import com.smortify.michael.projekte.oop.phone.sdcard.phonefile.PhoneFile;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class SDCard {
@@ -13,22 +14,28 @@ public class SDCard {
     public SDCard(int storageSpace, String manufacturer) {
         this.StorageSpace = storageSpace;
         this.manufacturer = manufacturer;
+        this.files = new ArrayList<>();
     }
 
 
     public void save(PhoneFile file){
+
         files.add(file);
     }
 
     public SDCard(int storageSpace) {
+
     }
 
-    public void saveFile(){
+    public int getStorageSpace() {
+        return StorageSpace;
     }
-public void getallFiles(){
-    files.get(0);
-}
-public void getFreeSpace(){
 
-}
+    public String getManufacturer() {
+        return manufacturer;
+    }
+
+    public List<PhoneFile> getFiles() {
+        return files;
+    }
 }

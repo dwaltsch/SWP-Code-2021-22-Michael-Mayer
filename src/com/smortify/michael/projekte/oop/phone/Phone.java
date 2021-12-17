@@ -2,7 +2,10 @@ package com.smortify.michael.projekte.oop.phone;
 
 import com.smortify.michael.projekte.oop.phone.camera.Camera;
 import com.smortify.michael.projekte.oop.phone.sdcard.SDCard;
+import com.smortify.michael.projekte.oop.phone.sdcard.phonefile.PhoneFile;
 import com.smortify.michael.projekte.oop.phone.sim.Sim;
+
+import java.util.List;
 
 public class Phone {
     private String color;
@@ -18,7 +21,8 @@ public class Phone {
     }
 
     public void takePicture(){
-        camera.makePicture();
+        PhoneFile file = camera.makePicture();
+        this.sdCard.save(file);
     }
 
     public void makeCall(String TelNr, Sim sim){
@@ -29,7 +33,10 @@ public class Phone {
 
     }
     public void showallFiles(){
-        this.sdCard.getallFiles();
+        List<PhoneFile> files = this.sdCard.getFiles();
+        for (PhoneFile file : files){
+            System.out.println(file.getName());
+        }
     }
 
     public String getColor() {

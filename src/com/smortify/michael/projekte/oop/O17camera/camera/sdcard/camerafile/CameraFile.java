@@ -1,11 +1,11 @@
-package com.smortify.michael.projekte.oop.O17camera.camera.sdcard.phonefile;
+package com.smortify.michael.projekte.oop.O17camera.camera.sdcard.camerafile;
 
-public class PhoneFile {
+public class CameraFile {
     private String extension;
     private int size;
     private String name;
 
-    public PhoneFile(String extension, int size, String name) {
+    public CameraFile(String extension, int size, String name) {
         this.extension = extension;
         this.size = size;
         this.name = name;

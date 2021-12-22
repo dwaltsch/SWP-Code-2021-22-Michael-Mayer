@@ -22,7 +22,6 @@ public class SDCard {
     }
 
     public void save(CameraFile file) {
-
         files.add(file);
     }
 

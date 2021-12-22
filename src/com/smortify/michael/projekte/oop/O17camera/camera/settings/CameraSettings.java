@@ -16,4 +16,5 @@ public class CameraSettings {
     }
 
     public enum size {small, medium, large}
+
 }

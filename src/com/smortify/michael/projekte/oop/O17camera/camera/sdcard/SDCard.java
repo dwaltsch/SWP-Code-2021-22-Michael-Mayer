@@ -16,6 +16,17 @@ public class SDCard {
         this.files = new ArrayList<>();
     }
 
+    public void setStorageSpace(int storageSpace) {
+        StorageSpace = storageSpace;
+    }
+
+    public void setManufacturer(String manufacturer) {
+        this.manufacturer = manufacturer;
+    }
+
+    public void setFiles(List<CameraFile> files) {
+        this.files = files;
+    }
 
     public SDCard(int storageSpace) {
 

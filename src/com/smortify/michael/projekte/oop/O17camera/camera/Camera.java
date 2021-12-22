@@ -32,6 +32,12 @@ public class Camera {
         com.smortify.michael.projekte.oop.O17camera.camera.sdcard.camerafile.CameraFile file = new com.smortify.michael.projekte.oop.O17camera.camera.sdcard.camerafile.CameraFile("png", 50, "foto" + filenumber);
         filenumber++;
         System.out.println("Foto gemacht");
+        int storageSizenew = 0;
+
+        if(this.cameraSettings.getType() == CameraSettings.size.small){
+            storageSizenew = this.sdCard.getStorageSpace() - 4;
+        }
+        sdCard.setStorageSpace(storageSizenew);
         System.out.println(sdCard.getStorageSpace());
         return file;
     }

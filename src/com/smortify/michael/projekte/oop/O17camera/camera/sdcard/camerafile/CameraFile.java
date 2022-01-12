@@ -4,11 +4,13 @@ public class CameraFile {
     private String extension;
     private int size;
     private String name;
+    private String date;
 
-    public CameraFile(String extension, int size, String name) {
+    public CameraFile(String extension, int size, String name, String date) {
         this.extension = extension;
         this.size = size;
         this.name = name;
+        this.date = date;
     }
 
     public void getInfo() {

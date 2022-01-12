@@ -8,12 +8,13 @@ import com.smortify.michael.projekte.oop.O17camera.camera.settings.CameraSetting
 
 public class Main {
     public static void main(String[] args) {
-        SDCard sdCard = new SDCard(10, "Kioxika");
+        SDCard sdCard = new SDCard(10, "Kioxika", 16);
         CameraSettings cameraSettings = new CameraSettings(CameraSettings.size.small);
         Manufacturer manufacturer = new Manufacturer("Kanohn", "Taiwan PRC");
         CameraLense cameraLense = new CameraLense(500, "Niekon", 50);
         Camera camera = new Camera(50, 50, "schlammgrün", manufacturer, cameraLense, cameraSettings, sdCard);
         camera.takePicture();
         camera.showallFiles();
+        camera.wipeCard();
     }
 }

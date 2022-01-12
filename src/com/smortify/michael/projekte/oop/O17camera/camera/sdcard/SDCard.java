@@ -6,13 +6,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SDCard {
+    private int advertisedStorageSpace;
     private int StorageSpace;
     private String manufacturer;
     private List<CameraFile> files;
 
-    public SDCard(int storageSpace, String manufacturer) {
+    public SDCard(int storageSpace, String manufacturer, int advertisedStorageSpace) {
         this.StorageSpace = storageSpace;
         this.manufacturer = manufacturer;
+        this.advertisedStorageSpace = advertisedStorageSpace;
         this.files = new ArrayList<>();
     }
 
@@ -20,8 +22,16 @@ public class SDCard {
 
     }
 
+    public int getAdvertisedStorageSpace() {
+        return advertisedStorageSpace;
+    }
+
     public void save(CameraFile file) {
         files.add(file);
+    }
+
+    public void delete(CameraFile file) {
+        files.remove(file);
     }
 
     public int getStorageSpace() {

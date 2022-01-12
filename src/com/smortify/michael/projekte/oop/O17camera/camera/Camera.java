@@ -40,6 +40,7 @@ public class Camera {
     public com.smortify.michael.projekte.oop.O17camera.camera.sdcard.camerafile.CameraFile takePicture() {
         com.smortify.michael.projekte.oop.O17camera.camera.sdcard.camerafile.CameraFile file = new com.smortify.michael.projekte.oop.O17camera.camera.sdcard.camerafile.CameraFile("png", 20, "foto" + filenumber, "12.01.2021");
         filenumber++;
+        this.sdCard.save(file);
         System.out.println("Foto gemacht");
         int storageSizenew = 0;
 
@@ -52,6 +53,11 @@ public class Camera {
         if (this.cameraSettings.getType() == CameraSettings.size.large) {
             storageSizenew = this.sdCard.getStorageSpace() - 6;
         }
+        /*
+        System.out.println(this.sdCard.getFiles());
+        this.sdCard.delete(file);
+        System.out.println(this.sdCard.getFiles());
+         */
         sdCard.setStorageSpace(storageSizenew);
         if (this.sdCard.getStorageSpace() <= 0) {
             System.out.println("kein Speicher mehr verfügbar bitte neue Karte einsetzen");
@@ -64,10 +70,15 @@ public class Camera {
         System.out.println(sdCard.getStorageSpace());
         return file;
     }
+
     public void showallFiles() {
         List<CameraFile> files = this.sdCard.getFiles();
         for (CameraFile file : files) {
             System.out.println(file.getName());
         }
+    }
+
+    public void wipeCard() {
+        this.sdCard.setStorageSpace((int) (this.sdCard.getAdvertisedStorageSpace() * 0.8));
     }
 }

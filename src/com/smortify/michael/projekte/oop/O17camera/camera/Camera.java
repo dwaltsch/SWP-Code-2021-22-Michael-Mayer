@@ -64,12 +64,10 @@ public class Camera {
         System.out.println(sdCard.getStorageSpace());
         return file;
     }
-
     public void showallFiles() {
         List<CameraFile> files = this.sdCard.getFiles();
         for (CameraFile file : files) {
             System.out.println(file.getName());
         }
     }
-
 }

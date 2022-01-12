@@ -38,23 +38,27 @@ public class Camera {
     }
 
     public com.smortify.michael.projekte.oop.O17camera.camera.sdcard.camerafile.CameraFile takePicture() {
-        com.smortify.michael.projekte.oop.O17camera.camera.sdcard.camerafile.CameraFile file = new com.smortify.michael.projekte.oop.O17camera.camera.sdcard.camerafile.CameraFile("png", 20, "foto" + filenumber,"12.01.2021");
+        com.smortify.michael.projekte.oop.O17camera.camera.sdcard.camerafile.CameraFile file = new com.smortify.michael.projekte.oop.O17camera.camera.sdcard.camerafile.CameraFile("png", 20, "foto" + filenumber, "12.01.2021");
         filenumber++;
         System.out.println("Foto gemacht");
         int storageSizenew = 0;
 
-        if(this.cameraSettings.getType() == CameraSettings.size.small){
+        if (this.cameraSettings.getType() == CameraSettings.size.small) {
             storageSizenew = this.sdCard.getStorageSpace() - 2;
         }
-        if(this.cameraSettings.getType() == CameraSettings.size.medium){
+        if (this.cameraSettings.getType() == CameraSettings.size.medium) {
             storageSizenew = this.sdCard.getStorageSpace() - 4;
         }
-        if(this.cameraSettings.getType() == CameraSettings.size.large){
+        if (this.cameraSettings.getType() == CameraSettings.size.large) {
             storageSizenew = this.sdCard.getStorageSpace() - 6;
         }
         sdCard.setStorageSpace(storageSizenew);
-        if(this.sdCard.getStorageSpace() < 0){
+        if (this.sdCard.getStorageSpace() <= 0) {
             System.out.println("kein Speicher mehr verfügbar bitte neue Karte einsetzen");
+            setIsallowed(false);
+
+        } else if (this.sdCard.getStorageSpace() < 10) {
+            System.out.println("Achtung Speicherplatz wird knapp");
 
         }
         System.out.println(sdCard.getStorageSpace());

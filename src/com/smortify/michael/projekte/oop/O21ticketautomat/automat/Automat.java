@@ -11,14 +11,18 @@ public class Automat {
     Printer printer;
     Ticketscanner ticketscanner;
     Controller controller;
+    Ticket ticket;
+    private int ticketid = 0;
 
     public void getTicket(){
-        Ticket ticket = new Ticket(1,10,0);
+        Ticket ticketid = new Ticket(ticketid,10,0);
+        ticketid = ticketid + 1;
     };
 
-    public void insertTicket(){
-        controller.getPrice();
+    public void insertTicket(Ticket ticket){
+        controller.getPrice(this.ticket);
     };
+
     public void insertMoney(double insertedMoney){
 
     };

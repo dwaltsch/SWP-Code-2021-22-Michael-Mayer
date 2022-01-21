@@ -10,4 +10,28 @@ public class Ticket {
         AusgabeZeit = ausgabeZeit;
         BezahlZeit = bezahlZeit;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getAusgabeZeit() {
+        return AusgabeZeit;
+    }
+
+    public void setAusgabeZeit(int ausgabeZeit) {
+        AusgabeZeit = ausgabeZeit;
+    }
+
+    public int getBezahlZeit() {
+        return BezahlZeit;
+    }
+
+    public void setBezahlZeit(int bezahlZeit) {
+        BezahlZeit = bezahlZeit;
+    }
 }

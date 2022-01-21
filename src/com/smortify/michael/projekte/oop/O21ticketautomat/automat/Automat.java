@@ -14,17 +14,23 @@ public class Automat {
     Ticket ticket;
     private int ticketid = 0;
 
-    public void getTicket(){
-        Ticket ticketid = new Ticket(ticketid,10,0);
+    public void getTicket() {
+        Ticket ticketid = new Ticket(ticketid, 10, 0);
         ticketid = ticketid + 1;
-    };
+    }
 
-    public void insertTicket(Ticket ticket){
+    ;
+
+    public void insertTicket(Ticket ticket) {
         controller.getPrice(this.ticket);
-    };
+    }
 
-    public void insertMoney(double insertedMoney){
+    ;
 
-    };
+    public void insertMoney(double insertedMoney) {
+
+    }
+
+    ;
 
 }

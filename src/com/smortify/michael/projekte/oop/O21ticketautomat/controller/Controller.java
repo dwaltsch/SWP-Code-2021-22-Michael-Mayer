@@ -8,10 +8,12 @@ import java.util.Random;
 public class Controller {
     GeldAusgabe geldAusgabe;
     double price;
+
     {
         price = 0;
     }
-    public double getPrice(Ticket ticket){
+
+    public double getPrice(Ticket ticket) {
         //Wenn das Ticket eingeschoben wird (insertTicket(Ticket)) wird kann über getPrice() der aktuelle Preis berechnet werden.
         //Wenn getPrice() aufgerufen wird ohne Ticket kommt ein Fehler.
         Random random = new Random();
@@ -23,13 +25,13 @@ public class Controller {
         return price;
 
     }
-    public void insertMoney(double amountofMoney, Ticket ticket){
+
+    public void insertMoney(double amountofMoney, Ticket ticket) {
         double pricetopay = getPrice(ticket);
         double returnmoney = amountofMoney - pricetopay;
-        if(returnmoney < 0){
+        if (returnmoney < 0) {
             System.out.println("Bitte werfens nochmal " + returnmoney + " € nach");
-        }
-        else{
+        } else {
             System.out.println("Vielen Dank für ihre Spende");
             geldAusgabe.outputmoney(returnmoney);
         }

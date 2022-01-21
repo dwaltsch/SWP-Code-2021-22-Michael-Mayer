@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Slick2DTemplate.iml" filepath="$PROJECT_DIR$/Slick2DTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/native/native.iml" filepath="$PROJECT_DIR$/native/native.iml" />
     </modules>
   </component>
 </project>

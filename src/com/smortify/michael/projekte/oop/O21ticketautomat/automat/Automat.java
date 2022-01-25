@@ -15,7 +15,7 @@ public class Automat {
     private int ticketid = 0;
 
     public void getTicket() {
-        ticketid = new Ticket(ticketid, 10, 0);
+        // ticketid = new Ticket(ticketid, 10, 0);
         ticketid++;
     }
 

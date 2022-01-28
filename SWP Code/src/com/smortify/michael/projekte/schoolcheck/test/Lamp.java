@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Lamp {
     List<LightElement> LightElements;
+
     public List<LightElement> getLightElements() {
         return LightElements;
     }
@@ -13,37 +14,35 @@ public class Lamp {
         LightElements = new ArrayList<>();
     }
 
-    public void addLightElement (LightElement lightElement){
+    public void addLightElement(LightElement lightElement) {
         this.LightElements.add(lightElement);
         System.out.println("Lightelement added");
     }
 
-    public void turnAllOn(){
-        for (LightElement lightElement : LightElements)
-        {
+    public void turnAllOn() {
+        for (LightElement lightElement : LightElements) {
             lightElement.turnOn();
         }
     }
-    public void turnAllOff(){
-        for (LightElement lightElement : LightElements)
-        {
+
+    public void turnAllOff() {
+        for (LightElement lightElement : LightElements) {
             lightElement.turnOff();
         }
     }
 
-    public double getOverallPowerusage(){
+    public double getOverallPowerusage() {
         double powerusage = 0;
-        for (LightElement lightElement : LightElements)
-        {
+        for (LightElement lightElement : LightElements) {
             powerusage = powerusage + lightElement.getPowerusage();
         }
-        System.out.println("The overall powerusage is "+ powerusage + " W");
+        System.out.println("The overall powerusage is " + powerusage + " W");
         return powerusage;
     }
-    public void printNamesofLightElements(){
+
+    public void printNamesofLightElements() {
         String namesoflightelements = "Folgende Leuchtkörper sind verbaut:";
-        for (LightElement lightElement : LightElements)
-        {
+        for (LightElement lightElement : LightElements) {
             namesoflightelements = namesoflightelements + " " + lightElement.getName();
         }
         System.out.println(namesoflightelements);

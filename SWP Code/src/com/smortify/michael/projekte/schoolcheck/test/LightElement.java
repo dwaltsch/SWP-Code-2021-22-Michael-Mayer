@@ -45,17 +45,17 @@ public class LightElement {
         this.status = status;
     }
 
-    public void turnOn(){
-        if(this.isStatus() == false) {
+    public void turnOn() {
+        if (this.isStatus() == false) {
             this.setStatus(true);
             this.setPowerusage(this.getPowerusage() + 5);
             System.out.printf("Ich habe mich eingeschaltet momentaner Stromverbrauch " + this.getPowerusage() + " Watt");
-        }
-        else if (this.isStatus() == true){
+        } else if (this.isStatus() == true) {
             System.out.printf("Mein Name ist " + this.getName() + " und ich bin bereits eingeschaltet");
         }
     }
-    public void turnOff(){
+
+    public void turnOff() {
         this.status = false;
     }
 }

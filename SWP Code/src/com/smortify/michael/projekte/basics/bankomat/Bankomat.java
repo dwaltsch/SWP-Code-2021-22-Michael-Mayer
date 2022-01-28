@@ -13,7 +13,6 @@ public class Bankomat {
         System.out.println("3. Kontostand");
         System.out.println("4. Ausrauben");
         System.out.println("5. Beenden");
-
         while (!isoff) {
             Scanner scanner = new Scanner(System.in);
             int auswahl = scanner.nextInt();

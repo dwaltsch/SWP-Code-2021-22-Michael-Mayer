@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="">
+    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="gooooooooooooooooooooooooooooooooood morning">
+      <change afterPath="$PROJECT_DIR$/src/org/smortlamp/tech/michael/mayer/rectangle/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/smortlamp/tech/michael/mayer/rectangle/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smortlamp/tech/michael/mayer/rectangle/Rectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +103,14 @@
       <option name="presentableId" value="Default" />
       <updated>1582964206231</updated>
     </task>
+    <task id="LOCAL-00001" summary="gooooooooooooooooooooooooooooooooood morning">
+      <created>1643785835288</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643785835288</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,5 +123,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gooooooooooooooooooooooooooooooooood morning" />
+    <option name="LAST_COMMIT_MESSAGE" value="gooooooooooooooooooooooooooooooooood morning" />
   </component>
 </project>

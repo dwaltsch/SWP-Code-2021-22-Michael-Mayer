@@ -4,8 +4,8 @@ import org.newdawn.slick.*;
 import org.newdawn.slick.tests.AnimationTest;
 
 public class Rectangle extends BasicGame {
-    private float xRec;
-    private float yRec;
+    private float xRec = 50;
+    private float yRec = 50;
     private float speed;
     private float xCirc;
     private float yCirc;
@@ -39,7 +39,6 @@ public class Rectangle extends BasicGame {
 
     @Override
     public void update(GameContainer gameContainer, int delta) throws SlickException {
-        /*
                this.xCirc = this.xCirc + direction;
         this.yOv = this.yOv + direction2;
         if (this.xCirc > 600) {
@@ -49,39 +48,19 @@ public class Rectangle extends BasicGame {
             direction = 1;
         }
         this.yOv = this.yOv + direction;
-        if (this.yOv > 600) {
+        if (this.yOv > 500) {
             direction2 = -1;
         }
         if (this.yOv < 100) {
             direction2 = 1;
-        }
-         */
-        this.xRec = this.xRec + xdirection;
-        this.yRec = this.yRec + ydirection;
-        if (this.xRec > 400) {
-            xdirection = 0;
-            ydirection = 1;
-        }
-        if (this.yRec >= 500) {
-            ydirection = 0;
-            xdirection = -1;
-            lastone = true;
-        }
-
-        if (this.xRec < 300 && lastone == true) {
-           xdirection = 0;
-           ydirection = -1;
-        }
-        if (this.xRec < 100) {
-            direction = 1;
         }
     }
 
     @Override
     public void render(GameContainer gameContainer, Graphics graphics) throws SlickException {
         graphics.drawRect(this.xRec, this.yRec, 100, 100);
-        //graphics.drawOval(this.xOv,this.yOv,69,50);
-        //graphics.drawOval(this.xCirc,this.yCirc,50,50);
+        graphics.drawOval(this.xOv,this.yOv,69,50);
+        graphics.drawOval(this.xCirc,this.yCirc,50,50);
         graphics.drawString("Grüzi", 69, 69);
     }
 }

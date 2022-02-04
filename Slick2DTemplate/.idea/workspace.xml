@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="ez4ence">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/smortlamp/tech/michael/mayer/rectangle/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smortlamp/tech/michael/mayer/ObjectsGame/ObjectsGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/smortlamp/tech/michael/mayer/rectangle/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smortlamp/tech/michael/mayer/ObjectsGame/readme.md" afterDir="false" />
-    </list>
+    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="cleanup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,11 +67,11 @@
       </method>
     </configuration>
     <configuration name="ObjectsGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.smortlamp.tech.michael.mayer.ObjectsGame.ObjectsGame" />
+      <option name="MAIN_CLASS_NAME" value="org.smortlamp.tech.michael.mayer.Objects.OOObjectsgame.ObjectsGame.ObjectsGame" />
       <module name="Slick2DTemplate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.smortlamp.tech.michael.mayer.ObjectsGame.*" />
+          <option name="PATTERN" value="org.smortlamp.tech.michael.mayer.Objects.OOObjectsgame.ObjectsGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643971845393</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="cleanup">
+      <created>1643972063559</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1643972063559</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +161,7 @@
     <MESSAGE value="help" />
     <MESSAGE value="help2" />
     <MESSAGE value="ez4ence" />
-    <option name="LAST_COMMIT_MESSAGE" value="ez4ence" />
+    <MESSAGE value="cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanup" />
   </component>
 </project>

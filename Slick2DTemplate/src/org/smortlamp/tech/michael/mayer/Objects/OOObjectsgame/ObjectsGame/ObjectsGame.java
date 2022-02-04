@@ -1,4 +1,4 @@
-package org.smortlamp.tech.michael.mayer.ObjectsGame;
+package org.smortlamp.tech.michael.mayer.Objects.OOObjectsgame.ObjectsGame;
 
 import org.newdawn.slick.*;
 

@@ -6,12 +6,12 @@ import java.util.List;
 public class Lamp {
     List<LightElement> LightElements;
 
-    public List<LightElement> getLightElements() {
-        return LightElements;
-    }
-
     public Lamp() {
         LightElements = new ArrayList<>();
+    }
+
+    public List<LightElement> getLightElements() {
+        return LightElements;
     }
 
     public void addLightElement(LightElement lightElement) {

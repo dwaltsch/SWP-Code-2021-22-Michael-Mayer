@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="ez4ence">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/smortlamp/tech/michael/mayer/rectangle/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smortlamp/tech/michael/mayer/rectangle/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/smortlamp/tech/michael/mayer/rectangle/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smortlamp/tech/michael/mayer/ObjectsGame/ObjectsGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/smortlamp/tech/michael/mayer/rectangle/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smortlamp/tech/michael/mayer/ObjectsGame/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Rectangle">
+  <component name="RunManager" selected="Application.ObjectsGame">
     <configuration name="AlphaMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.newdawn.slick.tests.AlphaMapTest" />
       <module name="Slick2DTemplate" />
@@ -69,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.smortlamp.tech.michael.mayer.rectangle.Rectangle" />
+    <configuration name="ObjectsGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.smortlamp.tech.michael.mayer.ObjectsGame.ObjectsGame" />
       <module name="Slick2DTemplate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.smortlamp.tech.michael.mayer.rectangle.*" />
+          <option name="PATTERN" value="org.smortlamp.tech.michael.mayer.ObjectsGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,7 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Rectangle" />
+        <item itemvalue="Application.ObjectsGame" />
         <item itemvalue="Application.AnimationTest" />
         <item itemvalue="Application.AlphaMapTest" />
       </list>
@@ -130,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643968875261</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ez4ence">
+      <created>1643971845393</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1643971845393</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

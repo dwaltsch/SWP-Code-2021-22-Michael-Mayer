@@ -1,8 +1,8 @@
-package org.smortlamp.tech.michael.mayer.rectangle;
+package org.smortlamp.tech.michael.mayer.ObjectsGame;
 
 import org.newdawn.slick.*;
 
-public class Rectangle extends BasicGame {
+public class ObjectsGame extends BasicGame {
     private float x;
 
     ;
@@ -15,13 +15,14 @@ public class Rectangle extends BasicGame {
     private float y2;
     private DIRECTION object2Direction;
     private float speed;
-    public Rectangle(String title) {
+
+    public ObjectsGame(String title) {
         super(title);
     }
 
     public static void main(String[] argv) {
         try {
-            AppGameContainer container = new AppGameContainer(new Rectangle("Test"));
+            AppGameContainer container = new AppGameContainer(new ObjectsGame("Test"));
             container.setDisplayMode(800, 600, false);
             container.start();
         } catch (SlickException e) {

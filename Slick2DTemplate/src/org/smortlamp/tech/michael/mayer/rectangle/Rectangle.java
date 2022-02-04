@@ -4,18 +4,6 @@ import org.newdawn.slick.*;
 import org.newdawn.slick.tests.AnimationTest;
 
 public class Rectangle extends BasicGame {
-    private float xRec = 50;
-    private float yRec = 50;
-    private float speed;
-    private float xCirc;
-    private float yCirc;
-    private float xOv;
-    private float yOv;
-    int direction = 1;
-    int direction2 = 1;
-    int xdirection = 1;
-    int ydirection = 0;
-    boolean lastone = false;
     public Rectangle(String title) {
         super(title);
     }
@@ -32,35 +20,13 @@ public class Rectangle extends BasicGame {
 
     @Override
     public void init(GameContainer gameContainer) throws SlickException {
-        this.xCirc = 100;
-        this.yCirc = 100;
-        this.speed = 50;
     }
 
     @Override
     public void update(GameContainer gameContainer, int delta) throws SlickException {
-               this.xCirc = this.xCirc + direction;
-        this.yOv = this.yOv + direction2;
-        if (this.xCirc > 600) {
-            direction = -1;
-        }
-        if (this.xCirc < 100) {
-            direction = 1;
-        }
-        this.yOv = this.yOv + direction;
-        if (this.yOv > 500) {
-            direction2 = -1;
-        }
-        if (this.yOv < 100) {
-            direction2 = 1;
-        }
     }
 
     @Override
     public void render(GameContainer gameContainer, Graphics graphics) throws SlickException {
-        graphics.drawRect(this.xRec, this.yRec, 100, 100);
-        graphics.drawOval(this.xOv,this.yOv,69,50);
-        graphics.drawOval(this.xCirc,this.yCirc,50,50);
-        graphics.drawString("Grüzi", 69, 69);
     }
 }

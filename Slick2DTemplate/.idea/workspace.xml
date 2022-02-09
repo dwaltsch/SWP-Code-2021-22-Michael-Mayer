@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="Rectangle">
-      <change afterPath="$PROJECT_DIR$/src/org/smortlamp/tech/michael/mayer/Objects/copyRect/ObjectsGame/.readme_images/1586df44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/smortlamp/tech/michael/mayer/Objects/copyRect/ObjectsGame/.readme_images/1619ce30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/smortlamp/tech/michael/mayer/Objects/copyRect/ObjectsGame/Rectangle.java" afterDir="false" />
+    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="Rectangle finished sichael vom 2 nicht dichael vom">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/smortlamp/tech/michael/mayer/Objects/copyRect/ObjectsGame/ObjectsGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smortlamp/tech/michael/mayer/Objects/copyRect/ObjectsGame/ObjectsGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/smortlamp/tech/michael/mayer/Objects/copyRect/ObjectsGame/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smortlamp/tech/michael/mayer/Objects/copyRect/ObjectsGame/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ObjectsGame" />
         <item itemvalue="Application.ObjectsGame (1)" />
+        <item itemvalue="Application.ObjectsGame" />
         <item itemvalue="Application.AnimationTest" />
         <item itemvalue="Application.AlphaMapTest" />
       </list>
@@ -181,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643972946977</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Rectangle finished sichael vom 2 nicht dichael vom">
+      <created>1644392964416</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1644392964416</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +207,7 @@
     <MESSAGE value="cleanup" />
     <MESSAGE value="ja moin" />
     <MESSAGE value="i schau jetzt video a lg michael vom 4.2.2022 um 12:08" />
-    <option name="LAST_COMMIT_MESSAGE" value="i schau jetzt video a lg michael vom 4.2.2022 um 12:08" />
+    <MESSAGE value="Rectangle finished sichael vom 2 nicht dichael vom" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rectangle finished sichael vom 2 nicht dichael vom" />
   </component>
 </project>

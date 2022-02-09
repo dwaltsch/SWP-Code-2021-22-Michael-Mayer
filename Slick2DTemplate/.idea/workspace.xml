@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="umorganisieren">
+    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="Games Lists (Teil 2)">
+      <change afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Elipse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/ObjectsGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/ObjectsGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -213,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644394268219</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Games Lists (Teil 2)">
+      <created>1644394910303</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1644394910303</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,6 +247,7 @@
     <MESSAGE value="Rectangle finished sichael vom 2 nicht dichael vom" />
     <MESSAGE value="GameLists finished sichita i hab keine Ahnung welches Plugin des ist" />
     <MESSAGE value="umorganisieren" />
-    <option name="LAST_COMMIT_MESSAGE" value="umorganisieren" />
+    <MESSAGE value="Games Lists (Teil 2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Games Lists (Teil 2)" />
   </component>
 </project>

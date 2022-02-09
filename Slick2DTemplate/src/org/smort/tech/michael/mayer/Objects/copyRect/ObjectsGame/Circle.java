@@ -1,14 +1,14 @@
-package org.smortlamp.tech.michael.mayer.Objects.copyRect.ObjectsGame;
+package org.smort.tech.michael.mayer.Objects.copyRect.ObjectsGame;
 
 import org.newdawn.slick.Graphics;
 
-public class Rectangle {
+public class Circle {
     private enum DIRECTION{RIGHT,LEFT,UP,DOWN}
     private float x;
     private float y;
     private float speed;
 
-    public Rectangle(float x, float y, float speed) {
+    public Circle(float x, float y, float speed) {
         this.x = x;
         this.y = y;
         this.speed = speed;
@@ -23,5 +23,4 @@ public class Rectangle {
             this.x = 0;
         }
     }
-
 }

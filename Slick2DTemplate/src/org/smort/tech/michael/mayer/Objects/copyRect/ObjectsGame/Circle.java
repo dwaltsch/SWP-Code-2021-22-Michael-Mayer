@@ -9,14 +9,14 @@ public class Circle implements Actor{
     private float x;
     private float y;
     private float speed;
-    private int diameter;
+    private float diameter;
 
     public Circle() {
         Random random = new Random();
         this.x = random.nextInt(500);
         this.y = random.nextInt(400);
         this.speed = random.nextInt(40)+ 10;
-        this.diameter = random.nextInt(50);
+        this.diameter = random.nextInt(10);
     }
 
     public void render(Graphics graphics){
@@ -24,6 +24,7 @@ public class Circle implements Actor{
     }
     public void update(int delta){
         this.y += (float)delta/this.speed;
+        this.diameter = this.diameter + 0.005f;
         if(this.y>600){
             this.y = 0;
         }

@@ -8,9 +8,6 @@ import java.util.Random;
 
 public class ObjectsGame extends BasicGame {
     private List<Actor> actors;
-
-    private Rectangle rectangle2;
-
     public ObjectsGame(String title) {
         super(title);
     }
@@ -28,16 +25,16 @@ public class ObjectsGame extends BasicGame {
     @Override
     public void init(GameContainer gameContainer) throws SlickException {
         this.actors = new ArrayList<>();
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 10; i++) {
             Random random = new Random();
-            Rectangle rectangle = new Rectangle(random.nextInt(600), random.nextInt(400),random.nextInt(40));
+            Rectangle rectangle = new Rectangle(random.nextInt(600), random.nextInt(400),random.nextInt(40),-1);
             actors.add(rectangle);
         }
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < 10; i++) {
             Circle circle = new Circle();
             actors.add(circle);
         }
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < 10; i++) {
             Random random = new Random();
             Elipse elipse = new Elipse(random.nextInt(800),random.nextInt(800),random.nextInt(5));
             actors.add(elipse);

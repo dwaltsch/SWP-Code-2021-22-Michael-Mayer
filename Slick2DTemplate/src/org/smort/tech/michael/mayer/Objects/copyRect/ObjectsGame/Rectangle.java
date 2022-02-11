@@ -2,8 +2,7 @@ package org.smort.tech.michael.mayer.Objects.copyRect.ObjectsGame;
 
 import org.newdawn.slick.Graphics;
 
-public class Rectangle implements Actor{
-    private enum DIRECTION{RIGHT,LEFT,UP,DOWN}
+public class Rectangle implements Actor {
     private float x;
     private float y;
     private float speed;
@@ -16,17 +15,20 @@ public class Rectangle implements Actor{
         this.direction = direction;
     }
 
-    public void render(Graphics graphics){
-        graphics.drawRect(this.x,this.y,50,50);
+    public void render(Graphics graphics) {
+        graphics.drawRect(this.x, this.y, 50, 50);
     }
-    public void update(int delta){
-        this.x += (float)delta/this.speed + direction;
-        if(this.x>600){
+
+    public void update(int delta) {
+        this.x += (float) delta / this.speed + direction;
+        if (this.x > 600) {
             this.x = 0;
         }
-        if(this.x<0){
+        if (this.x < 0) {
             this.x = 600;
         }
     }
+
+    private enum DIRECTION {RIGHT, LEFT, UP, DOWN}
 
 }

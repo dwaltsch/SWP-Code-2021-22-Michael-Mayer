@@ -8,6 +8,7 @@ import java.util.Random;
 
 public class ObjectsGame extends BasicGame {
     private List<Actor> actors;
+
     public ObjectsGame(String title) {
         super(title);
     }
@@ -27,7 +28,7 @@ public class ObjectsGame extends BasicGame {
         this.actors = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
             Random random = new Random();
-            Rectangle rectangle = new Rectangle(random.nextInt(600), random.nextInt(400),random.nextInt(40),-1);
+            Rectangle rectangle = new Rectangle(random.nextInt(600), random.nextInt(400), random.nextInt(40), -1);
             actors.add(rectangle);
         }
         for (int i = 0; i < 10; i++) {
@@ -36,21 +37,22 @@ public class ObjectsGame extends BasicGame {
         }
         for (int i = 0; i < 10; i++) {
             Random random = new Random();
-            Elipse elipse = new Elipse(random.nextInt(800),random.nextInt(800),random.nextInt(5));
+            Elipse elipse = new Elipse(random.nextInt(800), random.nextInt(800), random.nextInt(5));
             actors.add(elipse);
         }
     }
 
     @Override
     public void update(GameContainer gameContainer, int delta) throws SlickException {
-        for (Actor actor:this.actors){
+        for (Actor actor : this.actors) {
             actor.update(delta);
         }
 
     }
+
     @Override
     public void render(GameContainer gameContainer, Graphics graphics) throws SlickException {
-        for (Actor actor:this.actors){
+        for (Actor actor : this.actors) {
             actor.render(graphics);
         }
     }

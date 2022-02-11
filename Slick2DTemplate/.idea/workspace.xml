@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="07 Aufgabe 1 fertig">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Actor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Elipse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Elipse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/ObjectsGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/ObjectsGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Rectangle.java" afterDir="false" />
     </list>
@@ -244,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644574358927</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="07 Aufgabe 1 fertig">
+      <created>1644575061503</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1644575061503</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

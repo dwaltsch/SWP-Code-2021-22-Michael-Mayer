@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="07 Aufgabe 1 fertig">
-      <change beforePath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Actor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Elipse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Elipse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/ObjectsGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/ObjectsGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Rectangle.java" afterDir="false" />
+    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="refactoring">
+      <change afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/snowGame/SnowWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,20 +56,7 @@
       <recent name="C:\Users\Michael\Documents\Github Konfigs und Code\SWP\SWP-Code-2021-22-Michael-Mayer\Slick2DTemplate\src\org\smortlamp\tech\michael\mayer\Objects\copyRect" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ObjectsGame (2)">
-    <configuration name="AlphaMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.newdawn.slick.tests.AlphaMapTest" />
-      <module name="Slick2DTemplate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.newdawn.slick.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SnowWorld">
     <configuration name="AnimationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.newdawn.slick.tests.AnimationTest" />
       <module name="Slick2DTemplate" />
@@ -125,13 +109,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SnowWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.smort.tech.michael.mayer.Objects.snowGame.SnowWorld" />
+      <module name="Slick2DTemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.smort.tech.michael.mayer.Objects.snowGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SnowWorld" />
         <item itemvalue="Application.ObjectsGame (2)" />
         <item itemvalue="Application.ObjectsGame (1)" />
         <item itemvalue="Application.ObjectsGame" />
         <item itemvalue="Application.AnimationTest" />
-        <item itemvalue="Application.AlphaMapTest" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644575061503</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="refactoring">
+      <created>1644575105953</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1644575105953</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,6 +286,7 @@
     <MESSAGE value="Interface &#10;https://www.youtube.com/watch?v=0o9MeiONTno&#10;3:10" />
     <MESSAGE value="06 Interface fertig" />
     <MESSAGE value="07 Aufgabe 1 fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="07 Aufgabe 1 fertig" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
 </project>

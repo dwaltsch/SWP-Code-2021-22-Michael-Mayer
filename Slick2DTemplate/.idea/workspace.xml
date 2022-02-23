@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="refactoring">
-      <change afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/snowGame/SnowWorld.java" afterDir="false" />
+    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="reicht für des semester">
+      <change afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/snowGame/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/snowGame/SnowFlake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/snowGame/SnowWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/snowGame/SnowWorld.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -256,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644575105953</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="reicht für des semester">
+      <created>1644576446175</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1644576446175</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,6 +296,7 @@
     <MESSAGE value="06 Interface fertig" />
     <MESSAGE value="07 Aufgabe 1 fertig" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="reicht für des semester" />
+    <option name="LAST_COMMIT_MESSAGE" value="reicht für des semester" />
   </component>
 </project>

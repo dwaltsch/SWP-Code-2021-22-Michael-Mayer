@@ -40,6 +40,8 @@ public class ObjectsGame extends BasicGame {
             Elipse elipse = new Elipse(random.nextInt(800), random.nextInt(800), random.nextInt(5));
             actors.add(elipse);
         }
+        Rocket rocket = new Rocket();
+        this.actors.add(rocket);
     }
 
     @Override

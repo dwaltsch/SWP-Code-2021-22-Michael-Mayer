@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="reicht für des semester">
-      <change afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/snowGame/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/snowGame/SnowFlake.java" afterDir="false" />
+    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="Games ImageActor ago, there was also a lot of evidence that the glaciers were trying to figure out how to find the glacier ice in the mountains on their way to the north side of the lake where they were able to get the glac and then go back to">
+      <change afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/Rocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdata/Roget.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/ObjectsGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/copyRect/ObjectsGame/ObjectsGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/snowGame/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/snowGame/Actor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/snowGame/SnowFlake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/snowGame/SnowFlake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/snowGame/SnowWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/smort/tech/michael/mayer/Objects/snowGame/SnowWorld.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testdata" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -55,10 +58,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Michael\Documents\Github Konfigs und Code\SWP\SWP-Code-2021-22-Michael-Mayer\Slick2DTemplate\testdata" />
       <recent name="C:\Users\Michael\Documents\Github Konfigs und Code\SWP\SWP-Code-2021-22-Michael-Mayer\Slick2DTemplate\src\org\smortlamp\tech\michael\mayer\Objects\copyRect" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Michael\Documents\Github Konfigs und Code\SWP\SWP-Code-2021-22-Michael-Mayer\Slick2DTemplate\testdata" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SnowWorld">
+  <component name="RunManager" selected="Application.ObjectsGame (2)">
     <configuration name="AnimationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.newdawn.slick.tests.AnimationTest" />
       <module name="Slick2DTemplate" />
@@ -126,8 +133,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SnowWorld" />
         <item itemvalue="Application.ObjectsGame (2)" />
+        <item itemvalue="Application.SnowWorld" />
         <item itemvalue="Application.ObjectsGame (1)" />
         <item itemvalue="Application.ObjectsGame" />
         <item itemvalue="Application.AnimationTest" />
@@ -265,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644576446175</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="snowworld snowflakes snowlagreen">
+      <created>1645602672530</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1645602672530</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,6 +311,8 @@
     <MESSAGE value="07 Aufgabe 1 fertig" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="reicht für des semester" />
-    <option name="LAST_COMMIT_MESSAGE" value="reicht für des semester" />
+    <MESSAGE value="snowworld snowflakes snowlagreen" />
+    <MESSAGE value="Games ImageActor ago, there was also a lot of evidence that the glaciers were trying to figure out how to find the glacier ice in the mountains on their way to the north side of the lake where they were able to get the glac and then go back to" />
+    <option name="LAST_COMMIT_MESSAGE" value="Games ImageActor ago, there was also a lot of evidence that the glaciers were trying to figure out how to find the glacier ice in the mountains on their way to the north side of the lake where they were able to get the glac and then go back to" />
   </component>
 </project>

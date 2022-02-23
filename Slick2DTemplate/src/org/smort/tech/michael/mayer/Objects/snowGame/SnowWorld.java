@@ -12,6 +12,16 @@ public class SnowWorld extends BasicGame {
         super(title);
     }
 
+    public static void main(String[] argv) {
+        try {
+            AppGameContainer container = new AppGameContainer(new SnowWorld("Test"));
+            container.setDisplayMode(800, 600, false);
+            container.start();
+        } catch (SlickException e) {
+            e.printStackTrace();
+        }
+    }
+
     @Override
     public void init(GameContainer gameContainer) throws SlickException {
         this.snowflakes = new ArrayList<>();
@@ -25,24 +35,15 @@ public class SnowWorld extends BasicGame {
 
     @Override
     public void update(GameContainer gameContainer, int delta) throws SlickException {
-        for(Actor actor: this.snowflakes){
-           actor.update(delta);
+        for (Actor actor : this.snowflakes) {
+            actor.update(delta);
         }
     }
 
     @Override
     public void render(GameContainer gameContainer, Graphics graphics) throws SlickException {
-        for(Actor actor: this.snowflakes){
+        for (Actor actor : this.snowflakes) {
             actor.render(graphics);
-        }
-    }
-    public static void main(String[] argv) {
-        try {
-            AppGameContainer container = new AppGameContainer(new SnowWorld("Test"));
-            container.setDisplayMode(800, 600, false);
-            container.start();
-        } catch (SlickException e) {
-            e.printStackTrace();
         }
     }
 

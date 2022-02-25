@@ -20,7 +20,7 @@ public class Rectangle implements Actor {
         graphics.drawRect(this.x, this.y, 50, 50);
     }
 
-    public void update(GameContainer gamecontainer,int delta) {
+    public void update(GameContainer gamecontainer, int delta) {
         this.x += (float) delta / this.speed + direction;
         if (this.x > 600) {
             this.x = 0;

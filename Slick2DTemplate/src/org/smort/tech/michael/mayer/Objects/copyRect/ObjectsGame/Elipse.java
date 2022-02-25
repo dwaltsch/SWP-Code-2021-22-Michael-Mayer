@@ -19,7 +19,7 @@ public class Elipse implements Actor {
     }
 
     @Override
-    public void update(GameContainer gamecontainer,int delta) {
+    public void update(GameContainer gamecontainer, int delta) {
         this.x += (float) delta / this.speed;
         if (this.x > 600) {
             this.x = 10;

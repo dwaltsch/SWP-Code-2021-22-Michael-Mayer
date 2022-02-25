@@ -48,9 +48,9 @@ public class ObjectsGame extends BasicGame {
 
     @Override
     public void keyPressed(int key, char c) {
-        if(key == Input.KEY_SPACE){
+        if (key == Input.KEY_SPACE) {
             System.out.println("Shoot");
-            Cannonball cb = new Cannonball(this.rocket.getX(),this.rocket.getY());
+            Cannonball cb = new Cannonball(this.rocket.getX(), this.rocket.getY());
             this.actors.add(cb);
         }
     }
@@ -58,7 +58,7 @@ public class ObjectsGame extends BasicGame {
     @Override
     public void update(GameContainer gameContainer, int delta) throws SlickException {
         for (Actor actor : this.actors) {
-            actor.update(gameContainer,delta);
+            actor.update(gameContainer, delta);
         }
 
     }

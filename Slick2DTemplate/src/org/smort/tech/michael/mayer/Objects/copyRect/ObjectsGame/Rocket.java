@@ -4,7 +4,8 @@ import org.newdawn.slick.*;
 
 public class Rocket implements Actor {
     private Image rocketImage;
-    private float x,y;
+    private float x, y;
+
     public Rocket() throws SlickException {
         this.rocketImage = new Image("testdata/Roget.png");
         this.x = 100;
@@ -17,17 +18,17 @@ public class Rocket implements Actor {
     }
 
     @Override
-    public void update(GameContainer gamecontainer,int delta) {
-        if(gamecontainer.getInput().isKeyDown(Input.KEY_RIGHT)){
+    public void update(GameContainer gamecontainer, int delta) {
+        if (gamecontainer.getInput().isKeyDown(Input.KEY_RIGHT)) {
             this.x++;
         }
-        if(gamecontainer.getInput().isKeyDown(Input.KEY_LEFT)){
+        if (gamecontainer.getInput().isKeyDown(Input.KEY_LEFT)) {
             this.x--;
         }
-        if(gamecontainer.getInput().isKeyDown(Input.KEY_UP)){
+        if (gamecontainer.getInput().isKeyDown(Input.KEY_UP)) {
             this.y++;
         }
-        if(gamecontainer.getInput().isKeyDown(Input.KEY_DOWN)){
+        if (gamecontainer.getInput().isKeyDown(Input.KEY_DOWN)) {
             this.y--;
         }
     }

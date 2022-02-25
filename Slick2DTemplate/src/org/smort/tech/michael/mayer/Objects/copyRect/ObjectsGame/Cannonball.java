@@ -3,8 +3,8 @@ package org.smort.tech.michael.mayer.Objects.copyRect.ObjectsGame;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 
-public class Cannonball implements Actor{
-    private float x,y;
+public class Cannonball implements Actor {
+    private float x, y;
 
     public Cannonball(float x, float y) {
         this.x = x;
@@ -13,7 +13,7 @@ public class Cannonball implements Actor{
 
     @Override
     public void render(Graphics graphics) {
-        graphics.drawOval(this.x,this.y,10,10);
+        graphics.drawOval(this.x, this.y, 10, 10);
     }
 
     @Override

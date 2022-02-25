@@ -23,7 +23,7 @@ public class Circle implements Actor {
         graphics.drawOval(this.x, this.y, this.diameter, this.diameter);
     }
 
-    public void update(GameContainer gamecontainer,int delta) {
+    public void update(GameContainer gamecontainer, int delta) {
         this.y += (float) delta / this.speed;
         this.diameter = this.diameter + 0.005f;
         if (this.y > 600) {

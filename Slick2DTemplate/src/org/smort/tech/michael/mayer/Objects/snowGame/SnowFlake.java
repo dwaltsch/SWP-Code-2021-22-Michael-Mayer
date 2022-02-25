@@ -11,6 +11,7 @@ public class SnowFlake implements Actor {
     private int size;
     private int speed;
     private Random random;
+
     public SnowFlake(SIZE size) {
         this.random = new Random();
         if (size == size.BIG) {

@@ -13,7 +13,7 @@ public class Cannonball implements Actor{
 
     @Override
     public void render(Graphics graphics) {
-        graphics.fillOval(this.x,this.y,10,10);
+        graphics.drawOval(this.x,this.y,10,10);
     }
 
     @Override

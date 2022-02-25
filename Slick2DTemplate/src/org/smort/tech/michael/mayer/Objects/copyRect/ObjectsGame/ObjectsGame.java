@@ -51,6 +51,7 @@ public class ObjectsGame extends BasicGame {
         if(key == Input.KEY_SPACE){
             System.out.println("Shoot");
             Cannonball cb = new Cannonball(this.rocket.getX(),this.rocket.getY());
+            this.actors.add(cb);
         }
     }
 

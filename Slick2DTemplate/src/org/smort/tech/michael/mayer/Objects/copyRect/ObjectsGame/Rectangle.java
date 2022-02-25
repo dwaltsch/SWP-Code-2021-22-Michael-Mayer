@@ -1,5 +1,6 @@
 package org.smort.tech.michael.mayer.Objects.copyRect.ObjectsGame;
 
+import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 
 public class Rectangle implements Actor {
@@ -19,7 +20,7 @@ public class Rectangle implements Actor {
         graphics.drawRect(this.x, this.y, 50, 50);
     }
 
-    public void update(int delta) {
+    public void update(GameContainer gamecontainer,int delta) {
         this.x += (float) delta / this.speed + direction;
         if (this.x > 600) {
             this.x = 0;

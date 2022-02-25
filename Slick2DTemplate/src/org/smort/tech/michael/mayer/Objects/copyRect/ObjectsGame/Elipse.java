@@ -1,5 +1,6 @@
 package org.smort.tech.michael.mayer.Objects.copyRect.ObjectsGame;
 
+import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 
 public class Elipse implements Actor {
@@ -18,7 +19,7 @@ public class Elipse implements Actor {
     }
 
     @Override
-    public void update(int delta) {
+    public void update(GameContainer gamecontainer,int delta) {
         this.x += (float) delta / this.speed;
         if (this.x > 600) {
             this.x = 10;
